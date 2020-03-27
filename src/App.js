@@ -1,6 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-
+import AllStrains from "./pages/all/all";
+import NavTabs from "./components/navSide/navbar";
+import Home from "./pages/home/home";
+import Hybrid from "./pages/hybrid/hybrid"
 
 
 
@@ -10,10 +13,10 @@ function App() {
       <Router>
         <div>
           <NavTabs />
-          <Route exact path="/" component={About} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/discover" component={Discover} />
-          <Route path="/search" component={Search} />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/all" component={AllStrains} />
+          <Route exact path="/home" component={Home} />
+          <Route exact path="/hybrid" component={Hybrid} />
         </div>
       </Router>
     );
