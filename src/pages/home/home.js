@@ -1,11 +1,18 @@
 import React from "react";
-/*import card from
-import button from
-import container from 
+import Panel from "../../components/cardpanel/Panel";
+import {Col, Container, Row} from "../../components/grid/index"
 
-function home(){
+function Home(){
+    return <div>
+      <Panel title="Welcome to Janes Essentials"></Panel>
+      </div>
 
-    return
-    <container></container>
+}
+export default Home;
 
-}*/
+
+
+
+
+
+
