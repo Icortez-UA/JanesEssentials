@@ -2,6 +2,9 @@ import React from "react";
 import {Col, Row, Container } from "../../components/grid/index"
 import Card from "../../components/Card/card"
 
+//use the col row and container for the grid as we would normally on html 
+//With the card component you can change what card class it is by adding classes= "some materialize card class"
+
 const Hybrid = ()=> {
     
     return (
