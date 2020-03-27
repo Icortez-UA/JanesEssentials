@@ -7,7 +7,7 @@ function navbar(){
    return <div>
    <nav className="grey">
       <div className="nav-wrapper">
-      <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
+      <a data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
    <ul id="nav-mobile" className="right hide-on-med-and-down">
        <li><Link
           to="/home"
