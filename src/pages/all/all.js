@@ -11,10 +11,11 @@ import BannerImg from "../../assets/imgs/janesParalax.jpg"
 
 
 function AllStrains(){
-useEffect(()=>{
-  M.AutoInit();
+  useEffect(()=>{
+    M.AutoInit();
+  
+  })
 
-})
   return <div>
   <Banner classes="parallax-container">
     <Banner classes="parallax">
@@ -25,8 +26,8 @@ useEffect(()=>{
   <Row>
     <Container>
       {All.slice(0,52).map(All=>(
-        <Col size="s6 m3">
-          <Card classes="card hoverable small">
+        <Col size="s6 m4">
+          <Card classes="card hoverable medium">
           <Card classes="card-image waves-effect waves-block waves-light">
           <img data-id='+res[i].id+' src={Logo} alt="logo"></img></Card>
             <Card classes="card-content">

@@ -1,4 +1,5 @@
-import React from "react";
+import React,{useEffect} from "react";
+import M from "materialize-css"
 import Panel from "../../components/cardpanel/Panel";
 import {Col, Container, Row} from "../../components/grid/index"
 import Card from "../../components/Card/card"
@@ -7,6 +8,10 @@ import BannerImg from "../../assets/imgs/janesParalax.jpg"
 
 
 function Home(){
+  useEffect(()=>{
+    M.AutoInit();
+  
+  })
     return <div>
  <Banner classes="parallax-container">
    <div class="section no-pad-bot">
