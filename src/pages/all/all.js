@@ -1,29 +1,37 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+import M from "materialize-css"
 import Panel from "../../components/cardpanel/Panel";
 import {Col, Container, Row} from "../../components/grid/index"
 import Card from "../../components/Card/card"
 import All from "../../utils/all-strains.json"
+import Logo from "../../assets/imgs/icon-192x192.png"
+import Banner from "../../components/Parallax/parallax"
+
+
 
 function AllStrains(){
+useEffect(()=>{
+  M.AutoInit();
 
+})
   return <div>
-  <Panel title="Welcome to Janes Essentials"></Panel>
+  <Banner></Banner>
+  
   <Row>
     <Container>
-      <Col size="s6 m3">
-          <Card classes="card">
+      {All.slice(0,52).map(All=>(
+        <Col size="s6 m3">
+          <Card classes="card hoverable small">
+          <Card classes="card-image waves-effect waves-block waves-light">
+          <img data-id='+res[i].id+' src={Logo} alt="logo"></img></Card>
             <Card classes="card-content">
-
+              <Card classes="card-title grey-text text-darken-4">
+                {All.Name}
+              </Card>
             </Card>
           </Card>
       </Col>
-      <Col size="s6 m3">
-        <Card classes= "card">
-          <Card classes="card-content">
-
-          </Card>
-        </Card>
-      </Col>
+      ))}
 
     </Container>
   </Row>
