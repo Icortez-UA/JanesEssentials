@@ -6,6 +6,7 @@ import Card from "../../components/Card/card"
 import All from "../../utils/all-strains.json"
 import Logo from "../../assets/imgs/icon-192x192.png"
 import Banner from "../../components/Parallax/parallax"
+import BannerImg from "../../assets/imgs/janesParalax.jpg"
 
 
 
@@ -15,7 +16,11 @@ useEffect(()=>{
 
 })
   return <div>
-  <Banner></Banner>
+  <Banner classes="parallax-container">
+    <Banner classes="parallax">
+    <img src={BannerImg} alt="banner"></img>
+    </Banner>
+  </Banner>
   
   <Row>
     <Container>
