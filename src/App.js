@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import AllStrains from "./pages/all/all";
-import NavTabs from "./components/navSide/navbar";
+import NavTabs from "./components/navbar/navbar"
 import Home from "./pages/home/home";
 import Hybrid from "./pages/hybrid/hybrid"
 
