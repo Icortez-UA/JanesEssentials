@@ -1,7 +1,6 @@
 import React from "react";
 import { Link} from "react-router-dom";
-
-
+import Side from "../sidenav/sidenav";
 
 function navbar(){
    return <div>
@@ -29,6 +28,7 @@ function navbar(){
    </ul>
 </div>
 </nav>
+<Side classes="sidenav" id="mobile-demo"></Side>
 </div>
 }
 export default navbar;
