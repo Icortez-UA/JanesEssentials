@@ -4,7 +4,7 @@ import Panel from "../../components/cardpanel/Panel";
 import {Col, Container, Row} from "../../components/grid/index"
 import Card from "../../components/Card/card"
 import Banner from "../../components/Parallax/parallax"
-import BannerImg from "../../assets/imgs/janesParalax.jpg"
+import BannerImg from "../../assets/imgs/homepage.jpg"
 
 
 function Home(){
