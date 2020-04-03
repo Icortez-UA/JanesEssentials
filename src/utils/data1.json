@@ -1,0 +1,1174 @@
+{
+    "data": [
+        {
+            "name": "#1K",
+            "ocpc": "9XVU7PZUEC000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/unknown-breeder\/1k\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/unknown-breeder\/1k",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/no_image.png",
+            "seedCompany": {
+                "name": "Unknown Breeder",
+                "ocpc": "9XVU700000000000000000000"
+            },
+            "genetics": {
+                "names": false,
+                "ocpc": false
+            },
+            "lineage": [],
+            "children": [
+                "PHE7M3VGAU000000000000000",
+                "PHE7MVCT7X000000000000000"
+            ],
+            "createdAt": "2015-06-16 22:10:20",
+            "updatedAt": "2015-06-16 22:10:20"
+        },
+        {
+            "name": "#1K PC",
+            "ocpc": "PHE7MVCT7X000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/purple-caper-seeds\/1k-pc\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/purple-caper-seeds\/1k-pc",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/no_image.png",
+            "seedCompany": {
+                "name": "Purple Caper Seeds",
+                "ocpc": "PHE7M00000000000000000000"
+            },
+            "genetics": {
+                "names": "#1K x Purple Caper",
+                "ocpc": "9XVU7PZUEC000000000000000 x PHE7MC3M4Q000000000000000"
+            },
+            "lineage": {
+                "Brazil": "BR",
+                "India": "IN"
+            },
+            "children": false,
+            "createdAt": "2015-06-16 22:11:13",
+            "updatedAt": "2015-06-16 22:11:13"
+        },
+        {
+            "name": "#32",
+            "ocpc": "NRJKFUN7AM000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/archive-seed-bank\/32\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/archive-seed-bank\/32",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/no_image.png",
+            "seedCompany": {
+                "name": "Archive Seed Bank",
+                "ocpc": "NRJKF00000000000000000000"
+            },
+            "genetics": {
+                "names": "Albert Walker x Manic",
+                "ocpc": "9XVU77H24K000000000000000 x NRJKFETKYF000000000000000"
+            },
+            "lineage": [],
+            "children": [
+                "NRJKF4797R000000000000000"
+            ],
+            "createdAt": "2015-03-25 23:19:03",
+            "updatedAt": "2015-03-25 23:19:03"
+        },
+        {
+            "name": "#32 x Face-Off OG Kush",
+            "ocpc": "NRJKF4797R000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/archive-seed-bank\/32-x-face-off-og-kush\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/archive-seed-bank\/32-x-face-off-og-kush",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/no_image.png",
+            "seedCompany": {
+                "name": "Archive Seed Bank",
+                "ocpc": "NRJKF00000000000000000000"
+            },
+            "genetics": {
+                "names": "#32 x Faceoff Cut OG Kush",
+                "ocpc": "NRJKFUN7AM000000000000000 x 9XVU72PWPG000000000000000"
+            },
+            "lineage": {
+                "Afghanistan": "AF"
+            },
+            "children": [
+                "NRJKFZ6R2N000000000000000"
+            ],
+            "createdAt": "2015-03-25 23:21:56",
+            "updatedAt": "2015-03-25 23:21:56"
+        },
+        {
+            "name": "'78 LA OG Affie",
+            "ocpc": "9XVU7N3NWM000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/aficionado-seeds\/78-la-og-affie\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/aficionado-seeds\/78-la-og-affie",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/no_image.png",
+            "seedCompany": {
+                "name": "Aficionado Seeds",
+                "ocpc": "KWZ9M00000000000000000000"
+            },
+            "genetics": {
+                "names": "Lemon Thai x Colombian Gold x Pakistani Landrace",
+                "ocpc": "9XVU732U9W000000000000000 x AZX2UH6FL4000000000000000 x 9XVU7UJ7QU000000000000000"
+            },
+            "lineage": {
+                "Colombia": "CO",
+                "Pakistan": "PK",
+                "Thailand": "TH",
+                "United States": "US"
+            },
+            "children": false,
+            "createdAt": "2015-08-07 20:38:43",
+            "updatedAt": "2015-08-07 20:39:03"
+        },
+        {
+            "name": "'86 Black UW",
+            "ocpc": "9XVU7ZFZZC000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/unknown-breeder\/86-black-uw\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/unknown-breeder\/86-black-uw",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/no_image.png",
+            "seedCompany": {
+                "name": "Unknown Breeder",
+                "ocpc": "9XVU700000000000000000000"
+            },
+            "genetics": {
+                "names": "U Dub (UW)",
+                "ocpc": "9XVU7MTPCH000000000000000"
+            },
+            "lineage": [],
+            "children": [
+                "U9XW7GKGAG000000000000000"
+            ],
+            "createdAt": "2015-06-17 16:20:43",
+            "updatedAt": "2015-06-17 16:20:43"
+        },
+        {
+            "name": "(Ducksfoot x Lowryder) x AK-47",
+            "ocpc": "9XVU7U6Y9A000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/unknown-breeder\/ducksfoot-x-lowryder-x-ak-47\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/unknown-breeder\/ducksfoot-x-lowryder-x-ak-47",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/3\/full_3a6b6fab2feea392859b19689798caafe27f3a73.jpg",
+            "seedCompany": {
+                "name": "Unknown Breeder",
+                "ocpc": "9XVU700000000000000000000"
+            },
+            "genetics": {
+                "names": "( Ducksfoot x Lowryder ) x AK-47",
+                "ocpc": "( JMVUC9Y6YP000000000000000 x CZQPUCYMNT000000000000000 ) x CYGU94JYKY000000000000000"
+            },
+            "lineage": {
+                "Afghanistan": "AF",
+                "Colombia": "CO",
+                "Mexico": "MX",
+                "Thailand": "TH"
+            },
+            "children": false,
+            "createdAt": "2014-07-25 02:16:51",
+            "updatedAt": "2014-07-25 02:19:06"
+        },
+        {
+            "name": "(Early Pearl\/Skunk No. 1\/Northern Lights #5) x Haze",
+            "ocpc": "2NGAWYEM6F000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/seed-bank\/early-pearlskunk-no-1northern-lights-5-x-haze\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/seed-bank\/early-pearlskunk-no-1northern-lights-5-x-haze",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/no_image.png",
+            "seedCompany": {
+                "name": "Seed Bank",
+                "ocpc": "2NGAW00000000000000000000"
+            },
+            "genetics": {
+                "names": "(Early Pearl \/ Skunk No. 1 \/ Northern Lights #5) x Haze",
+                "ocpc": "(2NGAWFNW4C000000000000000 \/ D4C6C2KUMH000000000000000 \/ VUJCJ4MPQ2000000000000000) x 9XVU7WJQCD000000000000000"
+            },
+            "lineage": {
+                "Afghanistan": "AF",
+                "Colombia": "CO",
+                "India": "IN",
+                "Mexico": "MX",
+                "Thailand": "TH"
+            },
+            "children": false,
+            "createdAt": "2008-08-15 19:20:00",
+            "updatedAt": "2014-06-07 08:14:28"
+        },
+        {
+            "name": "(G-13 x Blue Widow) x Killer Queen",
+            "ocpc": "UVLGYGJP92000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/ncga\/g-13-x-blue-widow-x-killer-queen\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/ncga\/g-13-x-blue-widow-x-killer-queen",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/no_image.png",
+            "seedCompany": {
+                "name": "NCGA",
+                "ocpc": "UVLGY00000000000000000000"
+            },
+            "genetics": {
+                "names": "(Airborne's G13 x Blue Widow) x Killer Queen",
+                "ocpc": "(9XVU7VGNRY000000000000000 x UVLGYRUFZT000000000000000) x VUDHT3QVZT000000000000000"
+            },
+            "lineage": {
+                "Afghanistan": "AF",
+                "Brazil": "BR",
+                "Colombia": "CO",
+                "India": "IN",
+                "Mexico": "MX",
+                "Thailand": "TH"
+            },
+            "children": false,
+            "createdAt": "2008-08-15 19:20:00",
+            "updatedAt": "2014-06-07 08:21:48"
+        },
+        {
+            "name": "(Hash Plant \/ Northern Lights #1 \/ ?) x Swaziland",
+            "ocpc": "2NGAWFLA9R000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/seed-bank\/hash-plant-northern-lights-1-x-swaziland\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/seed-bank\/hash-plant-northern-lights-1-x-swaziland",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/no_image.png",
+            "seedCompany": {
+                "name": "Seed Bank",
+                "ocpc": "2NGAW00000000000000000000"
+            },
+            "genetics": {
+                "names": "(Hash Plant (Sensi) \/ Northern Lights #1 \/ ???) x Swaziland",
+                "ocpc": "(VUJCJZ9MNQ000000000000000 \/ 2NGAW32LR3000000000000000 \/ ???) x 2NGAW2GYUV000000000000000"
+            },
+            "lineage": {
+                "Afghanistan": "AF",
+                "Swaziland": "SZ"
+            },
+            "children": false,
+            "createdAt": "2008-08-15 19:20:00",
+            "updatedAt": "2014-06-07 08:14:40"
+        },
+        {
+            "name": "(Jilly Bean x White Siberian) x Purple Dragon",
+            "ocpc": "XPJJ2TXDQ7000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/love-genetics\/jilly-bean-x-white-siberian-x-purple-dragon\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/love-genetics\/jilly-bean-x-white-siberian-x-purple-dragon",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/no_image.png",
+            "seedCompany": {
+                "name": "Love Genetics",
+                "ocpc": "XPJJ200000000000000000000"
+            },
+            "genetics": {
+                "names": "Jilly Bean x White Siberian x Apalala (Purple Dragon)",
+                "ocpc": "9XVU7U6LDG000000000000000 x 9XVU7FU9Y4000000000000000"
+            },
+            "lineage": {
+                "Afghanistan": "AF",
+                "Brazil": "BR",
+                "Colombia": "CO",
+                "India": "IN",
+                "Mexico": "MX",
+                "Thailand": "TH"
+            },
+            "children": [
+                "9XVU7C3KDU000000000000000"
+            ],
+            "createdAt": "2015-06-16 23:15:21",
+            "updatedAt": "2015-06-16 23:15:21"
+        },
+        {
+            "name": "+Speed",
+            "ocpc": "FTYEUHFHJV000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/sweet-seeds\/speed\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/sweet-seeds\/speed",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/no_image.png",
+            "seedCompany": {
+                "name": "Sweet Seeds",
+                "ocpc": "FTYEU00000000000000000000"
+            },
+            "genetics": {
+                "names": "( Critical Mass \/ ??? ) Speed Devil #2",
+                "ocpc": "( 2NGAWKHL3K000000000000000 \/ ??? ) FTYEUJ4WME000000000000000"
+            },
+            "lineage": {
+                "Afghanistan": "AF",
+                "Colombia": "CO",
+                "Mexico": "MX"
+            },
+            "children": false,
+            "createdAt": "2016-03-28 17:01:51",
+            "updatedAt": "2016-03-28 17:01:51"
+        },
+        {
+            "name": "00 Kush Breath",
+            "ocpc": "RNNARC2PEV000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/in-house-genetics\/00-kush-breath\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/in-house-genetics\/00-kush-breath",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/no_image.png",
+            "seedCompany": {
+                "name": "In House Genetics",
+                "ocpc": "RNNAR00000000000000000000"
+            },
+            "genetics": {
+                "names": "OGKB (OG Kush Breath) x Secret Weapon",
+                "ocpc": "9XVU7TCQCV000000000000000 x RNNAR3VKZU000000000000000"
+            },
+            "lineage": {
+                "Afghanistan": "AF",
+                "South Africa": "ZA"
+            },
+            "children": false,
+            "createdAt": "2015-12-22 20:56:51",
+            "updatedAt": "2015-12-22 20:56:51"
+        },
+        {
+            "name": "1.3G",
+            "ocpc": "32UQE7FTPA000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/vancouver-island-seed-company\/13g\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/vancouver-island-seed-company\/13g",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/9\/full_937cb1e31897d4fcc996b55a30fa8a49afe447a2.jpg",
+            "seedCompany": {
+                "name": "Vancouver Island Seed Company",
+                "ocpc": "32UQE00000000000000000000"
+            },
+            "genetics": {
+                "names": "Texada Timewarp x Fucking Incredible",
+                "ocpc": "WPUC6HVRGN000000000000000 x 32UQEQGY2A000000000000000"
+            },
+            "lineage": {
+                "Canada": "CA"
+            },
+            "children": false,
+            "createdAt": "2008-08-15 19:20:00",
+            "updatedAt": "2014-06-07 11:15:29"
+        },
+        {
+            "name": "100 Watt Kind",
+            "ocpc": "CU9KDVRV3F000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/medicinal-roots\/100-watt-kind\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/medicinal-roots\/100-watt-kind",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/no_image.png",
+            "seedCompany": {
+                "name": "Medicinal Roots",
+                "ocpc": "CU9KD00000000000000000000"
+            },
+            "genetics": {
+                "names": "Poppa Cherry \/ Shiskeberry (Shiskaberry)",
+                "ocpc": "9XVU7NPQKY000000000000000 \/ M79TTEXYRJ000000000000000"
+            },
+            "lineage": {
+                "Afghanistan": "AF",
+                "Mexico": "MX",
+                "Thailand": "TH"
+            },
+            "children": false,
+            "createdAt": "2016-01-11 21:02:50",
+            "updatedAt": "2016-01-11 21:02:50"
+        },
+        {
+            "name": "101 Headband",
+            "ocpc": "6KGN2DM2AU000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/mtg-seeds\/101-headband\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/mtg-seeds\/101-headband",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/3\/full_3594844a2132fe3ef09533988dbd7f50e164fde2.jpg",
+            "seedCompany": {
+                "name": "MTG Seeds",
+                "ocpc": "6KGN200000000000000000000"
+            },
+            "genetics": {
+                "names": "707 Headband x Turbo Diesel",
+                "ocpc": "9XVU7TKAVG000000000000000 x 6KGN2ZTFMU000000000000000"
+            },
+            "lineage": {
+                "Afghanistan": "AF",
+                "Colombia": "CO",
+                "Mexico": "MX"
+            },
+            "children": false,
+            "createdAt": "2014-07-14 18:27:33",
+            "updatedAt": "2014-07-14 18:27:33"
+        },
+        {
+            "name": "1024",
+            "ocpc": "29AFQD6UXE000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/medical-seeds-co\/1024\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/medical-seeds-co\/1024",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/f\/full_f23e68468faee452cfb0abc5e3e736e601919a7c.jpg",
+            "seedCompany": {
+                "name": "Medical Seeds Co.",
+                "ocpc": "29AFQ00000000000000000000"
+            },
+            "genetics": {
+                "names": false,
+                "ocpc": false
+            },
+            "lineage": [],
+            "children": false,
+            "createdAt": "2015-07-02 16:19:10",
+            "updatedAt": "2015-07-02 16:19:10"
+        },
+        {
+            "name": "11:59 Armageddon Skunk",
+            "ocpc": "22ZQ6UETMA000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/pukka-seeds\/1159-armageddon-skunk\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/pukka-seeds\/1159-armageddon-skunk",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/3\/full_39c653b396a61321bc7127c3f89b40eb23cd771a.jpg",
+            "seedCompany": {
+                "name": "Pukka Seeds",
+                "ocpc": "22ZQ600000000000000000000"
+            },
+            "genetics": {
+                "names": "G-13 (G13) x Maple Leaf Indica x Big Bud (Sensi Seeds)",
+                "ocpc": "2NGAWHQVHG000000000000000 x VUJCJL99TT000000000000000 x VUJCJ24GRA000000000000000"
+            },
+            "lineage": {
+                "Canada": "CA"
+            },
+            "children": false,
+            "createdAt": "2008-08-15 19:20:00",
+            "updatedAt": "2014-06-07 09:48:45"
+        },
+        {
+            "name": "13 Bubbas",
+            "ocpc": "HLNJW93DCC000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/baked-genetics\/13-bubbas\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/baked-genetics\/13-bubbas",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/no_image.png",
+            "seedCompany": {
+                "name": "Baked Genetics",
+                "ocpc": "HLNJW00000000000000000000"
+            },
+            "genetics": {
+                "names": "Pre 98 Bubba Kush x Bubba Kush 13",
+                "ocpc": "9XVU79UTCY000000000000000 x QTDQH64NRE000000000000000"
+            },
+            "lineage": {
+                "Afghanistan": "AF",
+                "Colombia": "CO",
+                "Mexico": "MX",
+                "Thailand": "TH"
+            },
+            "children": false,
+            "createdAt": "2015-12-22 23:29:49",
+            "updatedAt": "2015-12-22 23:29:53"
+        },
+        {
+            "name": "13 Dawgs",
+            "ocpc": "ZLGHHJVLAG000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/delta-9-bio-tech\/13-dawgs\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/delta-9-bio-tech\/13-dawgs",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/no_image.png",
+            "seedCompany": {
+                "name": "Delta 9 Bio-Tech",
+                "ocpc": "ZLGHH00000000000000000000"
+            },
+            "genetics": {
+                "names": "G-13 (G13) x Chem Dawg (Chemdog) ???",
+                "ocpc": "2NGAWHQVHG000000000000000 x 9XVU762EQ4000000000000000 ???"
+            },
+            "lineage": [],
+            "children": [
+                "4XTRGTFD6M000000000000000"
+            ],
+            "createdAt": "2015-07-02 17:18:11",
+            "updatedAt": "2015-07-02 17:18:11"
+        },
+        {
+            "name": "13 Roses",
+            "ocpc": "9XVU73HWRP000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/unknown-breeder\/13-roses\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/unknown-breeder\/13-roses",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/no_image.png",
+            "seedCompany": {
+                "name": "Unknown Breeder",
+                "ocpc": "9XVU700000000000000000000"
+            },
+            "genetics": {
+                "names": "( X13 x Thai Landrace ) x Rosetta Stone",
+                "ocpc": "( 9XVU736RNE000000000000000 x 9XVU7NWEGH000000000000000 ) x 9XVU7DX36T000000000000000"
+            },
+            "lineage": {
+                "Afghanistan": "AF",
+                "Colombia": "CO",
+                "India": "IN",
+                "Mexico": "MX",
+                "Thailand": "TH"
+            },
+            "children": [
+                "4YJV2C9EPU000000000000000",
+                "4YJV2LLDJQ000000000000000",
+                "4YJV22AQN6000000000000000",
+                "4YJV2YD32D000000000000000",
+                "4YJV2Y62WV000000000000000",
+                "4YJV27EPNW000000000000000"
+            ],
+            "createdAt": "2016-02-26 22:25:48",
+            "updatedAt": "2016-02-26 22:25:48"
+        },
+        {
+            "name": "2 Pounder",
+            "ocpc": "GF7TVA327U000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/kiwiseeds\/2-pounder\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/kiwiseeds\/2-pounder",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/a\/full_a88bf34690d4d1288da2dfe8cb85e2d8734799c5.jpg",
+            "seedCompany": {
+                "name": "Kiwiseeds",
+                "ocpc": "GF7TV00000000000000000000"
+            },
+            "genetics": {
+                "names": "New Zealand Landrace",
+                "ocpc": "6M9UYGW7F3000000000000000"
+            },
+            "lineage": {
+                "New Zealand": "NZ"
+            },
+            "children": false,
+            "createdAt": "2008-08-15 19:20:00",
+            "updatedAt": "2014-06-08 03:20:59"
+        },
+        {
+            "name": "24 Carat",
+            "ocpc": "7NXXHKUAQD000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/mephisto-genetics\/24-carat\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/mephisto-genetics\/24-carat",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/3\/full_3485dd39f71898f4f63c75777856ebc272bcbc2a.jpg",
+            "seedCompany": {
+                "name": "Mephisto Genetics",
+                "ocpc": "7NXXH00000000000000000000"
+            },
+            "genetics": {
+                "names": "Sour Boggle x Purple Indica",
+                "ocpc": "3F64FW3RTJ000000000000000 x 9XVU7KCCNM000000000000000"
+            },
+            "lineage": {
+                "Afghanistan": "AF",
+                "Colombia": "CO",
+                "Mexico": "MX",
+                "Thailand": "TH"
+            },
+            "children": [
+                "7NXXHTJAKM000000000000000",
+                "7NXXHNFTNE000000000000000"
+            ],
+            "createdAt": "2015-01-27 21:25:58",
+            "updatedAt": "2015-03-16 23:58:38"
+        },
+        {
+            "name": "24K Gold",
+            "ocpc": "GM6NY9XWCX000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/crockett-family-farms\/24k-gold\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/crockett-family-farms\/24k-gold",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/no_image.png",
+            "seedCompany": {
+                "name": "Crockett Family Farms",
+                "ocpc": "GM6NY00000000000000000000"
+            },
+            "genetics": {
+                "names": "Kosher Kush x Tangie",
+                "ocpc": "4PNYLP9L7P000000000000000 x TTUYNYGWNA000000000000000"
+            },
+            "lineage": [],
+            "children": false,
+            "createdAt": "2015-12-10 03:52:17",
+            "updatedAt": "2015-12-10 03:52:18"
+        },
+        {
+            "name": "26 Cookies",
+            "ocpc": "YFTYM43M7X000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/riot-seeds\/26-cookies\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/riot-seeds\/26-cookies",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/no_image.png",
+            "seedCompany": {
+                "name": "Riot Seeds",
+                "ocpc": "YFTYM00000000000000000000"
+            },
+            "genetics": {
+                "names": "Girl Scout Cookies x West Coast Dawg 710",
+                "ocpc": "4KXM32V9YF000000000000000 x YFTYMJTJVW000000000000000"
+            },
+            "lineage": {
+                "Afghanistan": "AF",
+                "South Africa": "ZA",
+                "United States": "US"
+            },
+            "children": false,
+            "createdAt": "2016-06-13 19:06:52",
+            "updatedAt": "2016-06-13 19:06:52"
+        },
+        {
+            "name": "3 Kings",
+            "ocpc": "9XVU7EGRAZ000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/unknown-breeder\/3-kings\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/unknown-breeder\/3-kings",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/0\/full_0ff062001650961817ba4bd41b3243a46ba0b017.jpg",
+            "seedCompany": {
+                "name": "Unknown Breeder",
+                "ocpc": "9XVU700000000000000000000"
+            },
+            "genetics": {
+                "names": "Headband \/ OG Kush \/ Sour Diesel",
+                "ocpc": "9XVU7QRN3Y000000000000000 \/ 9XVU7GD2AP000000000000000 \/ 9XVU7KVPFZ000000000000000"
+            },
+            "lineage": {
+                "Afghanistan": "AF",
+                "Colombia": "CO",
+                "Mexico": "MX"
+            },
+            "children": [
+                "9XVU7HDWKG000000000000000",
+                "T6WLWC7ER9000000000000000",
+                "9XVU7HX776000000000000000"
+            ],
+            "createdAt": "2014-06-25 21:05:19",
+            "updatedAt": "2014-06-25 21:05:20"
+        },
+        {
+            "name": "3 Kings x Cheese",
+            "ocpc": "9XVU7HX776000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/unknown-breeder\/3-kings-x-cheese\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/unknown-breeder\/3-kings-x-cheese",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/no_image.png",
+            "seedCompany": {
+                "name": "Unknown Breeder",
+                "ocpc": "9XVU700000000000000000000"
+            },
+            "genetics": {
+                "names": "3 Kings x Cheese",
+                "ocpc": "9XVU7EGRAZ000000000000000 x 9XVU7XQALK000000000000000"
+            },
+            "lineage": {
+                "Afghanistan": "AF",
+                "Colombia": "CO",
+                "Mexico": "MX",
+                "Thailand": "TH"
+            },
+            "children": false,
+            "createdAt": "2015-08-11 00:25:04",
+            "updatedAt": "2015-08-11 00:25:05"
+        },
+        {
+            "name": "303 OG Kush",
+            "ocpc": "9XVU7DPMMW000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/unknown-breeder\/303-og-kush\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/unknown-breeder\/303-og-kush",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/no_image.png",
+            "seedCompany": {
+                "name": "Unknown Breeder",
+                "ocpc": "9XVU700000000000000000000"
+            },
+            "genetics": {
+                "names": "Pre 98 Bubba Kush x Chem Dawg (Chemdog)",
+                "ocpc": "9XVU79UTCY000000000000000 x 9XVU762EQ4000000000000000"
+            },
+            "lineage": [],
+            "children": false,
+            "createdAt": "2008-08-15 19:20:00",
+            "updatedAt": "2016-03-07 18:12:55"
+        },
+        {
+            "name": "303 Stooges",
+            "ocpc": "G29NGRNNAE000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/dark-horse-genetics\/303-stooges\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/dark-horse-genetics\/303-stooges",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/no_image.png",
+            "seedCompany": {
+                "name": "Dark Horse Genetics",
+                "ocpc": "G29NG00000000000000000000"
+            },
+            "genetics": {
+                "names": "( Suge Pure Kush x Snow Lotus ) x ( Strawberry Fields x Haze )",
+                "ocpc": "( 9XVU7XA32W000000000000000 x U9XW7JHLNV000000000000000 ) x ( 9XVU7M43NE000000000000000 x 9XVU7WJQCD000000000000000 )"
+            },
+            "lineage": {
+                "Afghanistan": "AF",
+                "Colombia": "CO",
+                "India": "IN",
+                "Mexico": "MX",
+                "Thailand": "TH"
+            },
+            "children": false,
+            "createdAt": "2015-11-09 02:31:39",
+            "updatedAt": "2015-11-09 02:31:39"
+        },
+        {
+            "name": "3D",
+            "ocpc": "G3YM7WFQ4U000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/apothecary-seed-company\/3d\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/apothecary-seed-company\/3d",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/no_image.png",
+            "seedCompany": {
+                "name": "Apothecary Seed Company",
+                "ocpc": "G3YM700000000000000000000"
+            },
+            "genetics": {
+                "names": "Triple X (XXX) x Sour Diesel",
+                "ocpc": "G3YM79PKHU000000000000000 x 9XVU7KVPFZ000000000000000"
+            },
+            "lineage": [],
+            "children": false,
+            "createdAt": "2008-08-15 19:20:00",
+            "updatedAt": "2014-09-23 03:58:59"
+        },
+        {
+            "name": "3PAC",
+            "ocpc": "ZNYGFJUQZR000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/swamp-boys-seeds\/3pac\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/swamp-boys-seeds\/3pac",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/no_image.png",
+            "seedCompany": {
+                "name": "Swamp Boys Seeds",
+                "ocpc": "ZNYGF00000000000000000000"
+            },
+            "genetics": {
+                "names": "Fire OG x Georgia Pine",
+                "ocpc": "HNLDXN2TDH000000000000000 x ZNYGFWXGPE000000000000000"
+            },
+            "lineage": {
+                "Afghanistan": "AF",
+                "Colombia": "CO",
+                "India": "IN",
+                "Mexico": "MX",
+                "Thailand": "TH"
+            },
+            "children": false,
+            "createdAt": "2016-03-29 02:52:36",
+            "updatedAt": "2016-03-29 02:52:37"
+        },
+        {
+            "name": "3x Cookies",
+            "ocpc": "PHE7M2PU3L000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/purple-caper-seeds\/3x-cookies\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/purple-caper-seeds\/3x-cookies",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/no_image.png",
+            "seedCompany": {
+                "name": "Purple Caper Seeds",
+                "ocpc": "PHE7M00000000000000000000"
+            },
+            "genetics": {
+                "names": "3X Crazy (Three Times Crazy) x Cookie F2",
+                "ocpc": "9XVU7HUZT3000000000000000 x PHE7MXWAVR000000000000000"
+            },
+            "lineage": {
+                "Afghanistan": "AF",
+                "Colombia": "CO",
+                "Mexico": "MX",
+                "South Africa": "ZA",
+                "Thailand": "TH"
+            },
+            "children": false,
+            "createdAt": "2015-03-26 01:15:02",
+            "updatedAt": "2015-03-26 01:15:02"
+        },
+        {
+            "name": "3X Crazy (Three Times Crazy)",
+            "ocpc": "9XVU7HUZT3000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/unknown-breeder\/3x-crazy-three-times-crazy\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/unknown-breeder\/3x-crazy-three-times-crazy",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/4\/full_409f6feeeb6b638328418681bc5833cdacde9f91.jpg",
+            "seedCompany": {
+                "name": "Unknown Breeder",
+                "ocpc": "9XVU700000000000000000000"
+            },
+            "genetics": {
+                "names": "OG Kush \/ Bubba Kush \/ Granddaddy Purple (GDP)",
+                "ocpc": "9XVU7GD2AP000000000000000 \/ 9XVU7FNJZR000000000000000 \/ 9XVU7HA9KV000000000000000"
+            },
+            "lineage": {
+                "Afghanistan": "AF",
+                "Colombia": "CO",
+                "Mexico": "MX",
+                "Thailand": "TH"
+            },
+            "children": [
+                "9XVU7AWQ6L000000000000000",
+                "9XVU7MLQKQ000000000000000",
+                "PHE7M2PU3L000000000000000"
+            ],
+            "createdAt": "2014-07-14 19:11:11",
+            "updatedAt": "2014-07-14 19:11:11"
+        },
+        {
+            "name": "4 Best 4 You",
+            "ocpc": "4RKD933HY9000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/pitt-bully\/4-best-4-you\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/pitt-bully\/4-best-4-you",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/no_image.png",
+            "seedCompany": {
+                "name": "Pitt Bully",
+                "ocpc": "4RKD900000000000000000000"
+            },
+            "genetics": {
+                "names": "White Widow x Skunk x Northern Lights x Haze",
+                "ocpc": "K3TYMWC3HY000000000000000 x 9XVU7Y2FA9000000000000000 x 2NGAWWTJNV000000000000000 x 9XVU7WJQCD000000000000000"
+            },
+            "lineage": {
+                "Afghanistan": "AF",
+                "Brazil": "BR",
+                "Colombia": "CO",
+                "India": "IN",
+                "Mexico": "MX",
+                "Thailand": "TH"
+            },
+            "children": false,
+            "createdAt": "2016-06-16 02:57:08",
+            "updatedAt": "2016-06-16 02:57:08"
+        },
+        {
+            "name": "4 Corners",
+            "ocpc": "4FMDMZ7YUV000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/rare-dankness-seeds\/4-corners\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/rare-dankness-seeds\/4-corners",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/5\/full_5c9238292dd5e9aab6fb500ac56eeeeea6d49aca.jpg",
+            "seedCompany": {
+                "name": "Rare Dankness Seeds",
+                "ocpc": "4FMDM00000000000000000000"
+            },
+            "genetics": {
+                "names": "Triangle Kush (Flo Rida Kush) x Afghan",
+                "ocpc": "9XVU7VFQHQ000000000000000 x 9UAK3P7VKV000000000000000"
+            },
+            "lineage": {
+                "Afghanistan": "AF"
+            },
+            "children": false,
+            "createdAt": "2015-09-01 23:48:02",
+            "updatedAt": "2015-09-01 23:48:02"
+        },
+        {
+            "name": "4 Horseman Haze",
+            "ocpc": "4YJV22N7FE000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/illuminati-seeds\/4-horseman-haze\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/illuminati-seeds\/4-horseman-haze",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/no_image.png",
+            "seedCompany": {
+                "name": "Illuminati Seeds",
+                "ocpc": "4YJV200000000000000000000"
+            },
+            "genetics": {
+                "names": "Black Haze x Pestilence",
+                "ocpc": "LJV2TMXL93000000000000000 x 9XVU7ZCN6N000000000000000"
+            },
+            "lineage": {
+                "Afghanistan": "AF",
+                "Colombia": "CO",
+                "India": "IN",
+                "Mexico": "MX",
+                "Thailand": "TH",
+                "United States": "US"
+            },
+            "children": [
+                "4YJV22J2CX000000000000000"
+            ],
+            "createdAt": "2016-02-26 20:45:34",
+            "updatedAt": "2016-02-26 20:45:34"
+        },
+        {
+            "name": "4 Kings",
+            "ocpc": "9XVU7NFGEV000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/unknown-breeder\/4-kings\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/unknown-breeder\/4-kings",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/no_image.png",
+            "seedCompany": {
+                "name": "Unknown Breeder",
+                "ocpc": "9XVU700000000000000000000"
+            },
+            "genetics": {
+                "names": false,
+                "ocpc": false
+            },
+            "lineage": [],
+            "children": false,
+            "createdAt": "2014-11-26 00:57:23",
+            "updatedAt": "2014-11-26 00:57:23"
+        },
+        {
+            "name": "4077 Med Leaf",
+            "ocpc": "9XVU7Y6YTK000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/unknown-breeder\/4077-med-leaf\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/unknown-breeder\/4077-med-leaf",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/no_image.png",
+            "seedCompany": {
+                "name": "Unknown Breeder",
+                "ocpc": "9XVU700000000000000000000"
+            },
+            "genetics": {
+                "names": false,
+                "ocpc": false
+            },
+            "lineage": [],
+            "children": false,
+            "createdAt": "2008-08-15 19:20:00",
+            "updatedAt": "2014-06-09 05:56:11"
+        },
+        {
+            "name": "420",
+            "ocpc": "32UQEYZYWY000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/vancouver-island-seed-company\/420\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/vancouver-island-seed-company\/420",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/b\/full_b015c76ec201f8ac13a80382ca51e52f4a1e6ab4.jpg",
+            "seedCompany": {
+                "name": "Vancouver Island Seed Company",
+                "ocpc": "32UQE00000000000000000000"
+            },
+            "genetics": {
+                "names": "Burmese x Fucking Incredible",
+                "ocpc": "32UQEP99L6000000000000000 x 32UQEQGY2A000000000000000"
+            },
+            "lineage": [],
+            "children": false,
+            "createdAt": "2008-08-15 19:20:00",
+            "updatedAt": "2014-06-07 12:12:10"
+        },
+        {
+            "name": "425",
+            "ocpc": "VQLLW66EPF000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/cannaventure\/425\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/cannaventure\/425",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/no_image.png",
+            "seedCompany": {
+                "name": "CannaVenture",
+                "ocpc": "VQLLW00000000000000000000"
+            },
+            "genetics": {
+                "names": "Chemdawg #4 x Ortega",
+                "ocpc": "9XVU7AQE2R000000000000000 x 9XVU7L9HWD000000000000000"
+            },
+            "lineage": {
+                "Afghanistan": "AF",
+                "Thailand": "TH"
+            },
+            "children": false,
+            "createdAt": "2015-09-08 17:22:17",
+            "updatedAt": "2015-09-08 17:22:17"
+        },
+        {
+            "name": "4D (4th Dimension)",
+            "ocpc": "FRPCTGN7CU000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/socal-seed-co\/4d-4th-dimension\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/socal-seed-co\/4d-4th-dimension",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/no_image.png",
+            "seedCompany": {
+                "name": "SoCal Seed Co.",
+                "ocpc": "FRPCT00000000000000000000"
+            },
+            "genetics": {
+                "names": "Chemdawg #4 x Chemdog D Kush",
+                "ocpc": "9XVU7AQE2R000000000000000 x VUDHTJKRC6000000000000000"
+            },
+            "lineage": {
+                "Afghanistan": "AF"
+            },
+            "children": false,
+            "createdAt": "2015-10-07 08:29:54",
+            "updatedAt": "2015-10-07 08:29:54"
+        },
+        {
+            "name": "501st OG",
+            "ocpc": "4FMDMKJYQL000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/rare-dankness-seeds\/501st-og\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/rare-dankness-seeds\/501st-og",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/a\/full_aac791c4ba5e08993b92130a8d95cff56cd3e242.jpg",
+            "seedCompany": {
+                "name": "Rare Dankness Seeds",
+                "ocpc": "4FMDM00000000000000000000"
+            },
+            "genetics": {
+                "names": "Skywalker OG x Rare Dankness #1",
+                "ocpc": "9XVU7ZDGYL000000000000000 x 4FMDM9DTWX000000000000000"
+            },
+            "lineage": {
+                "Afghanistan": "AF"
+            },
+            "children": [
+                "RNNARQ7MKL000000000000000",
+                "RNNARQ7MKL000000000000000"
+            ],
+            "createdAt": "2014-10-01 17:12:35",
+            "updatedAt": "2014-10-01 17:12:35"
+        },
+        {
+            "name": "5G's Blue",
+            "ocpc": "TZ4EPWNKFC000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/rebel-grown\/5gs-blue\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/rebel-grown\/5gs-blue",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/7\/full_70946efdf0386d3f81537986360feb99d6263f22.jpg",
+            "seedCompany": {
+                "name": "Rebel Grown",
+                "ocpc": "TZ4EP00000000000000000000"
+            },
+            "genetics": {
+                "names": "Diesel Berry x ( OG Kush x Chem Dawg (Chemdog) ) x Cinderella 99 (C99)",
+                "ocpc": "9XVU74ZUXD000000000000000 x ( 9XVU7GD2AP000000000000000 x 9XVU762EQ4000000000000000 ) x HZU7PPY4L4000000000000000"
+            },
+            "lineage": {
+                "Afghanistan": "AF",
+                "Colombia": "CO",
+                "India": "IN",
+                "Mexico": "MX",
+                "Thailand": "TH"
+            },
+            "children": false,
+            "createdAt": "2015-12-14 20:51:03",
+            "updatedAt": "2015-12-14 20:51:03"
+        },
+        {
+            "name": "5G's Purple",
+            "ocpc": "TZ4EPE6AA9000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/rebel-grown\/5gs-purple\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/rebel-grown\/5gs-purple",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/e\/full_e31129b3293aee023dc2708035ae16db99e411e4.jpg",
+            "seedCompany": {
+                "name": "Rebel Grown",
+                "ocpc": "TZ4EP00000000000000000000"
+            },
+            "genetics": {
+                "names": "Diesel Berry x ( OG Kush x Chem Dawg (Chemdog) ) x Cinderella 99 (C99)",
+                "ocpc": "9XVU74ZUXD000000000000000 x ( 9XVU7GD2AP000000000000000 x 9XVU762EQ4000000000000000 ) x HZU7PPY4L4000000000000000"
+            },
+            "lineage": {
+                "Afghanistan": "AF",
+                "Colombia": "CO",
+                "India": "IN",
+                "Mexico": "MX",
+                "Thailand": "TH"
+            },
+            "children": false,
+            "createdAt": "2015-12-14 20:52:27",
+            "updatedAt": "2015-12-14 20:52:27"
+        },
+        {
+            "name": "5G's Red",
+            "ocpc": "9XVU7Z4CDW000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/rebel-grown\/5g\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/rebel-grown\/5g",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/no_image.png",
+            "seedCompany": {
+                "name": "Rebel Grown",
+                "ocpc": "TZ4EP00000000000000000000"
+            },
+            "genetics": {
+                "names": "Diesel Berry x ( OG Kush x Chem Dawg (Chemdog) ) x Cinderella 99 (C99)",
+                "ocpc": "9XVU74ZUXD000000000000000 x ( 9XVU7GD2AP000000000000000 x 9XVU762EQ4000000000000000 ) x HZU7PPY4L4000000000000000"
+            },
+            "lineage": [],
+            "children": false,
+            "createdAt": "2015-12-14 20:52:36",
+            "updatedAt": "2015-12-14 20:53:36"
+        },
+        {
+            "name": "5G's Yellow",
+            "ocpc": "TZ4EPVHKRT000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/rebel-grown\/5gs-yellow\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/rebel-grown\/5gs-yellow",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/7\/full_7e3b9959b362c6df10c6b7fb5cdc717728109f7c.jpg",
+            "seedCompany": {
+                "name": "Rebel Grown",
+                "ocpc": "TZ4EP00000000000000000000"
+            },
+            "genetics": {
+                "names": "Diesel Berry x ( OG Kush x Chem Dawg (Chemdog) ) x Cinderella 99 (C99)",
+                "ocpc": "9XVU74ZUXD000000000000000 x ( 9XVU7GD2AP000000000000000 x 9XVU762EQ4000000000000000 ) x HZU7PPY4L4000000000000000"
+            },
+            "lineage": {
+                "Afghanistan": "AF",
+                "Colombia": "CO",
+                "India": "IN",
+                "Mexico": "MX",
+                "Thailand": "TH"
+            },
+            "children": [
+                "TZ4EP69QXQ000000000000000"
+            ],
+            "createdAt": "2015-12-14 20:45:52",
+            "updatedAt": "2015-12-14 20:45:52"
+        },
+        {
+            "name": "5K OG (cut)",
+            "ocpc": "HFKEWHYENP000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/gage-green-group\/5k-og-cut\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/gage-green-group\/5k-og-cut",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/no_image.png",
+            "seedCompany": {
+                "name": "Gage Green Group",
+                "ocpc": "HFKEW00000000000000000000"
+            },
+            "genetics": {
+                "names": "OG Kush",
+                "ocpc": "9XVU7GD2AP000000000000000"
+            },
+            "lineage": {
+                "Afghanistan": "AF"
+            },
+            "children": [
+                "HFKEWVNH2W000000000000000",
+                "PHE7MY6MAX000000000000000",
+                "HFKEW4ZK3R000000000000000",
+                "HA3F4F4RD6000000000000000",
+                "9XVU7KX237000000000000000"
+            ],
+            "createdAt": "2015-06-10 22:06:40",
+            "updatedAt": "2015-06-10 22:06:40"
+        },
+        {
+            "name": "5K Puff",
+            "ocpc": "HFKEWUETKE000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/gage-green-group\/5k-puff\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/gage-green-group\/5k-puff",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/e\/full_e083181d4c62c2e18945f3b7ced7d9eb1df53edd.jpg",
+            "seedCompany": {
+                "name": "Gage Green Group",
+                "ocpc": "HFKEW00000000000000000000"
+            },
+            "genetics": {
+                "names": "Hola Lightning x Joseph OG",
+                "ocpc": "9XVU7KX237000000000000000 x HFKEWWEEJP000000000000000"
+            },
+            "lineage": {
+                "Afghanistan": "AF",
+                "Brazil": "BR",
+                "Colombia": "CO",
+                "India": "IN",
+                "Mexico": "MX"
+            },
+            "children": false,
+            "createdAt": "2016-02-26 23:07:25",
+            "updatedAt": "2016-06-10 22:48:53"
+        },
+        {
+            "name": "5th Element",
+            "ocpc": "FWF2XWTCWV000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/elemental-seeds\/5th-element\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/elemental-seeds\/5th-element",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/no_image.png",
+            "seedCompany": {
+                "name": "Elemental Seeds",
+                "ocpc": "FWF2X00000000000000000000"
+            },
+            "genetics": {
+                "names": "Blackberry x All Spark OG",
+                "ocpc": "ACZRNHXURW000000000000000 x FWF2XN7EQ2000000000000000"
+            },
+            "lineage": {
+                "Afghanistan": "AF",
+                "Nepal": "NP",
+                "United States": "US"
+            },
+            "children": false,
+            "createdAt": "2015-04-28 19:58:03",
+            "updatedAt": "2015-05-22 15:23:00"
+        },
+        {
+            "name": "60 Day Lemon (auto)",
+            "ocpc": "TTUYN6ZULW000000000000000",
+            "qr": "https:\/\/www.cannabisreports.com\/strain-reports\/dna-genetics\/60-day-lemon-auto\/qr-code.svg",
+            "url": "https:\/\/www.cannabisreports.com\/strain-reports\/dna-genetics\/60-day-lemon-auto",
+            "image": "https:\/\/www.cannabisreports.com\/images\/strains\/c\/full_cf479b9f822a888f15fa75cc07b87f0ce25be075.jpg",
+            "seedCompany": {
+                "name": "DNA Genetics",
+                "ocpc": "TTUYN00000000000000000000"
+            },
+            "genetics": {
+                "names": "Lemon Skunk (DNA) x Ruderalis",
+                "ocpc": "TTUYNXCRFM000000000000000 x 3PJMJT4JXC000000000000000"
+            },
+            "lineage": [],
+            "children": false,
+            "createdAt": "2014-12-04 00:26:34",
+            "updatedAt": "2014-12-04 00:26:34"
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "total": 9006,
+            "count": 50,
+            "per_page": 50,
+            "current_page": 1,
+            "total_pages": 181,
+            "links": {
+                "next": "https:\/\/api.otreeba.com\/v1\/strains?sort=name&count=50&page=2"
+            }
+        }
+    }
+}
