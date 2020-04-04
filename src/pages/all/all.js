@@ -14,7 +14,7 @@ import BannerImg from "../../assets/imgs/janesParalax.jpg"
 function AllStrains(){
   const [strain,setStrain] = useState(All.data);
   const [ogStrain,setOgstrain] = useState(OG);
-  const [dropdown,setDropdown] = useState("");
+
 
   const filterResults = (choice,obj) =>{
     if(choice === "DEFAULT"){
@@ -25,7 +25,7 @@ function AllStrains(){
     }
     else{
     var result = obj.filter((a) =>{
-      return a.Value_race == choice
+      return a.Value_race === choice
   });
       return result;
     }
@@ -65,11 +65,15 @@ function AllStrains(){
         <Col key={index} size="s6 m4">
           <Card  classes="card hoverable medium">
           <Card  classes="card-image waves-effect waves-block waves-light">
-          <img  src={Logo} alt="logo"></img></Card>
+          <img  src={Logo} alt="logo"></img>
+          </Card>
             <Card classes="card-content">
               <Card classes="card-title grey-text text-darken-4">
                 {ogStrain.Name}
-              </Card>
+              </Card>              
+            </Card>
+            <Card classes= "card-action">
+            <a class="waves-effect waves-light btn">button</a>
             </Card>
           </Card>
       </Col>
