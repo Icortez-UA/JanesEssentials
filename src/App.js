@@ -4,6 +4,7 @@ import AllStrains from "./pages/all/all";
 import NavTabs from "./components/navbar/navbar"
 import Home from "./pages/home/home";
 import Hybrid from "./pages/hybrid/hybrid"
+import Profile from "./pages/profile/profile"
 
 
 
@@ -17,6 +18,7 @@ function App() {
           <Route exact path="/all" component={AllStrains} />
           <Route exact path="/home" component={Home} />
           <Route exact path="/hybrid" component={Hybrid} />
+          <Route exact path="/profile" component={Profile} />
         </div>
       </Router>
     );
