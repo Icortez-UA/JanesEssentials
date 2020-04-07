@@ -15,6 +15,7 @@ function AllStrains(){
   //const [strain,setStrain] = useState(All.data);
   const [ogStrain,setOgstrain] = useState(OG);
   const [searchTerm, setSearchTerm] = useState("");
+ 
 
 
  
@@ -40,28 +41,38 @@ function AllStrains(){
   }
 
   useEffect(()=>{
-    //setStrain(strain.sort((a, b) => (a.seedCompany.name > b.seedCompany.name) ? 1 : -1))
     
     M.AutoInit();
     const results = OG.filter((a) =>
       a.Name.toLowerCase().includes(searchTerm.toLowerCase())
     );
     setOgstrain(results);
+
+
+    
     
 
   
   },[searchTerm])
 
   return <div>
-  <Banner classes="parallax-container">
-    <Banner classes="parallax">
+  <Banner classNamees="parallax-container">
+  <div className="section no-pad-bot">
+      <Container>
+        <h1 className="header center white-text text-lighten-2">Welcome To Jane's Essentials</h1>
+        <div className="row center">
+          <h5 className="header col s12 white-text light">Search the strains</h5>
+        </div>
+      </Container>
+    </div>
+    <Banner classNamees="parallax">
     <img src={BannerImg} alt="banner"></img>
     </Banner>
   </Banner>
   
   
  <Row>
-  <div className="input-field col s4 offset-s2">
+  <div classNameName="input-field col s4 offset-s2">
     <select defaultValue={'DEFAULT'} onChange={e=> setOgstrain(filterResults(e.currentTarget.value,OG)) }>
       <option value="DEFAULT" disabled >Choose your Strain!</option>
       <option value="All">All</option>
@@ -70,13 +81,13 @@ function AllStrains(){
       <option value="sativa">Sativa</option>
     </select>
   </div>
-  <div className="col s4">
+  <div classNameName="col s4">
       <form>
-        <div class="input-field">
-        <i class="material-icons prefix">search</i>
+        <div className="input-field">
+        <i className="material-icons prefix">search</i>
           <input id="search" type="search" placeholder="Search by name?" value={searchTerm} onChange={handleChange} required></input>
-          <label class="label-icon" for="search"></label>
-          <i class="material-icons">close</i>
+          <label className="label-icon" for="search"></label>
+          <i className="material-icons">close</i>
         </div>
       </form>
     </div>
@@ -84,19 +95,21 @@ function AllStrains(){
 
   <Row>
     <Container >
-      {ogStrain.slice(0,500).map((ogStrain,index)=>(
+      {ogStrain.slice(0,750).map((ogStrain,index)=>(
         <Col key={index} size="s6 m4">
-          <Card  classes="card hoverable medium">
-          <Card  classes="card-image waves-effect waves-block waves-light">
+          <Card  classNamees="card hoverable medium">
+          <Card  classNamees="card-image waves-effect waves-block waves-light">
           <img  src={Logo} alt="logo"></img>
           </Card>
-            <Card classes="card-content">
-              <Card classes="card-title grey-text text-darken-4">
+          
+            <Card classNamees="card-content">
+              <Card classNamees="card-title grey-text text-darken-4">
                 {ogStrain.Name}
-              </Card>              
-            </Card>
-            <Card classes= "card-action">
-            <a class="waves-effect waves-light btn">button</a>
+              </Card>
+                  <ul>
+                    <li>Strain: {ogStrain.Value_race}</li>
+                    <li>Flavors: {ogStrain.Value_flavors}</li>
+                  </ul>     
             </Card>
           </Card>
       </Col>
