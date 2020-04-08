@@ -8,6 +8,7 @@ import OG from "../../utils/janesSampledata.json"
 import Logo from "../../assets/imgs/icon-192x192.png"
 import Banner from "../../components/Parallax/parallax"
 import BannerImg from "../../assets/imgs/janesParalax.jpg"
+import BrandImg from "../../assets/imgs/brandlogo.png"
 
 
 
@@ -15,7 +16,6 @@ function AllStrains(){
   //const [strain,setStrain] = useState(All.data);
   const [ogStrain,setOgstrain] = useState(OG);
   const [searchTerm, setSearchTerm] = useState("");
- 
 
 
  
@@ -41,53 +41,43 @@ function AllStrains(){
   }
 
   useEffect(()=>{
+    //setStrain(strain.sort((a, b) => (a.seedCompany.name > b.seedCompany.name) ? 1 : -1))
     
     M.AutoInit();
     const results = OG.filter((a) =>
       a.Name.toLowerCase().includes(searchTerm.toLowerCase())
     );
     setOgstrain(results);
-
-
-    
     
 
   
   },[searchTerm])
 
   return <div>
-  <Banner classNamees="parallax-container">
-  <div className="section no-pad-bot">
-      <Container>
-        <h1 className="header center white-text text-lighten-2">Welcome To Jane's Essentials</h1>
-        <div className="row center">
-          <h5 className="header col s12 white-text light">Search the strains</h5>
-        </div>
-      </Container>
-    </div>
-    <Banner classNamees="parallax">
+  <Banner classes="parallax-container">
+    <Banner classes="parallax">
     <img src={BannerImg} alt="banner"></img>
     </Banner>
   </Banner>
   
   
  <Row>
-  <div classNameName="input-field col s4 offset-s2">
+  <div className="input-field col s4 offset-s2">
     <select defaultValue={'DEFAULT'} onChange={e=> setOgstrain(filterResults(e.currentTarget.value,OG)) }>
-      <option value="DEFAULT" disabled >Choose your Strain!</option>
+      <option value="DEFAULT" disabled >Choose your Strain Type!</option>
       <option value="All">All</option>
       <option value="hybrid">Hybrid</option>
       <option value="indica">Indica</option>
       <option value="sativa">Sativa</option>
     </select>
   </div>
-  <div classNameName="col s4">
+  <div className="col s4">
       <form>
-        <div className="input-field">
-        <i className="material-icons prefix">search</i>
+        <div class="input-field">
+        <i class="material-icons prefix">search</i>
           <input id="search" type="search" placeholder="Search by name?" value={searchTerm} onChange={handleChange} required></input>
-          <label className="label-icon" for="search"></label>
-          <i className="material-icons">close</i>
+          <label class="label-icon" for="search"></label>
+          <i class="material-icons">close</i>
         </div>
       </form>
     </div>
@@ -95,23 +85,37 @@ function AllStrains(){
 
   <Row>
     <Container >
-      {ogStrain.slice(0,750).map((ogStrain,index)=>(
+      {ogStrain.slice(0,500).map((ogStrain,index)=>(
         <Col key={index} size="s6 m4">
-          <Card  classNamees="card hoverable medium">
-          <Card  classNamees="card-image waves-effect waves-block waves-light">
-          <img  src={Logo} alt="logo"></img>
+          <Card  classes="card hoverable medium">
+          <Card  classes="card-image waves-effect waves-block waves-light">
+          <img data-target={`modal${index}`} className="responsive-image modal-trigger"src={Logo} alt="logo"></img>
           </Card>
-          
-            <Card classNamees="card-content">
-              <Card classNamees="card-title grey-text text-darken-4">
+            <Card classes="card-content">
+              <Card classes="card-title grey-text text-darken-4">
                 {ogStrain.Name}
-              </Card>
-                  <ul>
-                    <li>Strain: {ogStrain.Value_race}</li>
-                    <li>Flavors: {ogStrain.Value_flavors}</li>
-                  </ul>     
+              </Card>              
+            </Card>
+            <Card classes= "card-action">
+            <a data-target={`modal${index}`} class="waves-effect waves-light btn modal-trigger">More Info</a>
             </Card>
           </Card>
+          <div id={`modal${index}`} className="modal modal-fixed-footer">
+            <div className="modal-content">
+              <Col size="m6">
+              <img className="responsive-image" src={BrandImg} alt="logo"></img>
+              </Col>
+              
+              <Col size="m6">
+              <h4>{ogStrain.Name}</h4>
+              <p>{ogStrain.Value_race}</p>
+              </Col>
+              
+            </div>
+            <div className="modal-footer">
+            <a href="#!" className="modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+          </div>
       </Col>
       ))}
 
