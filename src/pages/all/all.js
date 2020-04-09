@@ -107,8 +107,35 @@ function AllStrains(){
               </Col>
               
               <Col size="m6">
-              <h4>{ogStrain.Name}</h4>
-              <p>{ogStrain.Value_race}</p>
+              <h3>{ogStrain.Name}</h3>
+              <h6>by: SampleBrand</h6>
+              <ul className="collection">
+              <li className="collection-item avatar">
+              <img src={Logo} alt="" class="circle"></img>
+              <span className="title"></span>
+              <p>Strain Type: {ogStrain.Value_race}</p>
+              <p>Flavors: {ogStrain.Value_flavors}</p>
+              
+              </li>
+              <li class="collection-item avatar">
+              <i class="material-icons circle">sentiment_very_satisfied</i>
+              <span class="title">Positive Effects:</span>
+              <p>{ogStrain.Value_effects_positive}</p>
+              <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+              </li>
+              <li class="collection-item avatar">
+              <i class="material-icons circle">sentiment_very_dissatisfied</i>
+              <span class="title">Negative Effects:</span>
+              <p>{ogStrain.Value_effects_negative}</p>
+              <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+              </li>
+              <li class="collection-item avatar">
+              <i class="material-icons circle">local_hospital</i>
+              <span class="title">Medical use:</span>
+              <p>{ogStrain.Value_effects_medical}</p>
+              <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+              </li>
+              </ul>
               </Col>
               
             </div>
