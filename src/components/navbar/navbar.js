@@ -1,10 +1,13 @@
-import React from "react";
-import { Link} from "react-router-dom";
+import React,{useState,useEffect} from "react";
+import { Link } from "react-router-dom";
 import Side from "../sidenav/sidenav";
 import Logo from "../../assets/imgs/janelogo.png"
 
-function navbar(){
+ 
 
+
+function navbar(props){
+  
   const styles ={
     width: 70, 
     marginleft:  20,
@@ -15,8 +18,8 @@ function navbar(){
 
 
 
-   return <div>
-   <nav className="grey">
+   return <div className="navbar-fixed">
+   <nav id="navBar" className={`grey scale-transition ${props.scale}`}>
       <div className="nav-wrapper">
       <Link to="/home" className="brand-logo">
         <img className="responsive-image" src={Logo} id="navlogo"  style={styles}></img></Link>
