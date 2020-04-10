@@ -9,25 +9,11 @@ import Hybrid from "./pages/hybrid/hybrid"
 
 
 function App() {
-  let [pos, setPos] = useState(window.pageYOffset)
-  let [visible, setVisible] = useState("")
-   
-   useEffect(()=> {
-      const handleScroll = () => {
-         let temp = window.pageYOffset
-         
-         setVisible(pos > temp);
-         setPos(temp)
-      };
-      window.addEventListener("scroll", handleScroll);
-      return(() => {
-         window.removeEventListener("scroll", handleScroll);
-      })
-   })
+
     return (
       <Router>
         <div>
-          <NavTabs scale={(!visible ? "scale-out" : " ")} />
+          <NavTabs />
           <Route exact path="/" component={Home} />
           <Route exact path="/all" component={AllStrains} />
           <Route exact path="/home" component={Home} />
