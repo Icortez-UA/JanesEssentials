@@ -9,6 +9,7 @@ import Logo from "../../assets/imgs/icon-192x192.png"
 import Banner from "../../components/Parallax/parallax"
 import BannerImg from "../../assets/imgs/janesParalax.jpg"
 import BrandImg from "../../assets/imgs/brandlogo.png"
+import BackToTop from "../../components/backtotop/top"
 
 
 
@@ -16,9 +17,19 @@ function AllStrains(){
   //const [strain,setStrain] = useState(All.data);
   const [ogStrain,setOgstrain] = useState(OG);
   const [searchTerm, setSearchTerm] = useState("");
+  let [pos, setPos] = useState(window.pageYOffset)
+  let [visible, setVisible] = useState("")
 
 
- 
+ const scaleOut = () => {
+  let temp = window.pageYOffset;
+
+  if (pos < temp) {
+    setVisible('');
+} else {
+    setVisible('scale-out');
+}
+ };
 
   const handleChange = (event) => {
      setSearchTerm(event.target.value);
@@ -48,9 +59,8 @@ function AllStrains(){
       a.Name.toLowerCase().includes(searchTerm.toLowerCase())
     );
     setOgstrain(results);
-    
+    window.addEventListener("scroll", scaleOut);
 
-  
   },[searchTerm])
 
   return <div>
@@ -102,36 +112,33 @@ function AllStrains(){
           </Card>
           <div id={`modal${index}`} className="modal modal-fixed-footer">
             <div className="modal-content">
-              <Col size="m6">
+              <Col size="s12 m6">
               <img className="responsive-image" src={BrandImg} alt="logo"></img>
               </Col>
               
-              <Col size="m6">
+              <Col size="s12 m6">
               <h3>{ogStrain.Name}</h3>
               <h6>by: SampleBrand</h6>
-              <ul className="collection">
-              <li className="collection-item avatar">
-              <i class="material-icons circle">eco</i>
-              <span className="title"></span>
-              <p>Strain Type: {ogStrain.Value_race}</p>
-              <p>Flavors: {ogStrain.Value_flavors}</p>
-              
-              </li>
-              <li class="collection-item avatar">
-              <i class="material-icons circle">sentiment_satisfied_alt</i>
-              <span class="title">Positive Effects:</span>
-              <p>{ogStrain.Value_effects_positive}</p>
-              </li>
-              <li class="collection-item avatar">
-              <i class="material-icons circle">sentiment_very_dissatisfied</i>
-              <span class="title">Negative Effects:</span>
-              <p>{ogStrain.Value_effects_negative}</p>
-              </li>
-              <li class="collection-item avatar">
-              <i class="material-icons circle">local_hospital</i>
-              <span class="title">Medical use:</span>
-              <p>{ogStrain.Value_effects_medical}</p>
-              </li>
+              <h6>Strain Type: {ogStrain.Value_race}<i class="material-icons">eco</i></h6>
+              <ul className="collapsible">
+    <li>
+      <div class="collapsible-header"><i class="material-icons">local_dining</i>Flavors</div>
+      <div class="collapsible-body"><span>{ogStrain.Value_flavors}</span></div>
+    </li>
+        <li>
+      <div class="collapsible-header"><i class="material-icons">local_hospital</i>Medical Uses</div>
+      <div class="collapsible-body"><span>Used to Treat: {ogStrain.Value_effects_medical}</span></div>
+    </li>
+        <li>
+      <div class="collapsible-header"><i class="material-icons">sentiment_satisfied_alt</i>Positive Effects</div>
+      <div class="collapsible-body"><span>{ogStrain.Value_effects_positive}</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">sentiment_very_dissatisfied</i>Negative Effects</div>
+      <div class="collapsible-body"><span>{ogStrain.Value_effects_negative}</span></div>
+    </li>
+
+
               </ul>
               </Col>
               
@@ -143,7 +150,9 @@ function AllStrains(){
       </Col>
       ))}
 
+  <BackToTop scale= {visible} />
     </Container>
+
   </Row>
   </div>
 
