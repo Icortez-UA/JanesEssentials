@@ -1,10 +1,13 @@
 import React from "react";
-import { Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import Side from "../sidenav/sidenav";
 import Logo from "../../assets/imgs/janelogo.png"
 
-function navbar(){
+ 
 
+
+function navbar(props){
+  
   const styles ={
     width: 70, 
     marginleft:  20,
@@ -15,11 +18,11 @@ function navbar(){
 
 
 
-   return <div>
-   <nav className="grey">
+   return <div className="navbar-fixed">
+   <nav id="navBar" className={`grey scale-transition ${props.scale}`}>
       <div className="nav-wrapper">
       <Link to="/home" className="brand-logo">
-        <img className="responsive-image" src={Logo} id="navlogo"  style={styles}></img></Link>
+        <img className="responsive-image" src={Logo} id="navlogo" alt="logo"  style={styles}></img></Link>
       <a data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
         <ul id="nav-mobile" className="right hide-on-med-and-down">
        <li><Link

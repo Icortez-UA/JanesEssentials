@@ -1,8 +1,6 @@
 import React,{useEffect} from "react";
 import M from "materialize-css"
-import Panel from "../../components/cardpanel/Panel";
-import {Col, Container, Row} from "../../components/grid/index"
-import Card from "../../components/Card/card"
+import {Container} from "../../components/grid/index"
 import Banner from "../../components/Parallax/parallax"
 import BannerImg from "../../assets/imgs/homepage.jpg"
 
@@ -14,11 +12,11 @@ function Home(){
   })
     return <div>
  <Banner classes="parallax-container">
-   <div class="section no-pad-bot">
+   <div className="section no-pad-bot">
       <Container>
-        <h1 class="header center white-text text-lighten-2">Welcome To Janes Essentials</h1>
-        <div class="row center">
-          <h5 class="header col s12 white-text light">Check us out</h5>
+        <h1 className="header center white-text text-lighten-2">Welcome To Janes Essentials</h1>
+        <div className="row center">
+          <h5 className="header col s12 white-text light">Check us out</h5>
         </div>
       </Container>
     </div>
