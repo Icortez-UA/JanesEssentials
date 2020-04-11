@@ -41,6 +41,16 @@ function navbar(props){
         >
           Hybrid
         </Link></li>
+        <li><Link
+          to="/LoginPage"
+        >
+         login
+        </Link></li>
+        <li><Link
+          to="/RegisterPage"
+        >
+          register
+        </Link></li>
         
    </ul>
 </div>

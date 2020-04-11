@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 
-import { userActions } from '../_actions';
+import { userActions } from '../../_actions';
 
 class LoginPage extends React.Component {
     constructor(props) {
@@ -81,4 +81,4 @@ const actionCreators = {
 };
 
 const connectedLoginPage = connect(mapState, actionCreators)(LoginPage);
-export { connectedLoginPage as LoginPage };
+export default connectedLoginPage;

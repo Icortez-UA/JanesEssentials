@@ -2,12 +2,18 @@ import React from 'react';
 import { Router, Route, Switch, Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 
-import { history } from '../_helpers';
+import  history  from '../_helpers/history';
 import { alertActions } from '../_actions';
 import { PrivateRoute } from '../_components';
-import { home } from '../pages/home';
-import { LoginPage } from '../pages/LoginPage';
-import { RegisterPage } from '../pages/RegisterPage';
+import  home  from '../pages/home/home';
+import  LoginPage  from '../pages/LoginPage/LoginPage';
+import  RegisterPage  from '../pages/RegisterPage/RegisterPage';
+import AllStrains from "../pages/all/all";
+import NavTabs from "../components/navbar/navbar"
+import Home from "../pages/home/home";
+import Hybrid from "../pages/hybrid/hybrid";
+
+
 
 class App extends React.Component {
     constructor(props) {
@@ -22,22 +28,21 @@ class App extends React.Component {
     render() {
         const { alert } = this.props;
         return (
-            <div className="jumbotron">
-                <div className="container">
-                    <div className="col-sm-8 col-sm-offset-2">
+            <div>
                         {alert.message &&
                             <div className={`alert ${alert.type}`}>{alert.message}</div>
                         }
                         <Router history={history}>
-                            <Switch>
-                                <PrivateRoute exact path="/" component={home} />
-                                <Route path="/login" component={LoginPage} />
-                                <Route path="/register" component={RegisterPage} />
-                                <Redirect from="*" to="/" />
+                            <NavTabs />
+                            <Switch>                               
+                                <Route exact path="/" component={Home} />
+                                <Route exact path="/all" component={AllStrains} />
+                                <Route exact path="/home" component={Home} />
+                                <Route exact path="/hybrid" component={Hybrid} />
+                                <Route exact path="/LoginPage" component={LoginPage} />
+                                <Route path="/RegisterPage" component={RegisterPage} />                                
                             </Switch>
                         </Router>
-                    </div>
-                </div>
             </div>
         );
     }

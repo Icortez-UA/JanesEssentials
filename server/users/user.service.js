@@ -1,7 +1,7 @@
-const config = require('config.json');
+const config = require('../config');
 const jwt = require('jsonwebtoken');
-const bcrypt = require('_helpers/db');
-const User = db.User;
+const bcrypt = require('../_helpers/db');
+const User = bcrypt.db.User;
 
 
 module.exports = {
@@ -55,7 +55,7 @@ async function update(id, userParam) {
 
     //validate
     if (!user) throw 'User not found';
-    if (user.username !== userParam.username && await User.findOne({ username: userParam,username})){
+    if (user.username !== userParam.username && await User.findOne({ username: userParam.username})){
         throw 'Username "' + userParam.username + '" is already taken';
     }
 
