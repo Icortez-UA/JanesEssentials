@@ -10,9 +10,9 @@ function scrollToTop(props){
       });
     }
     
-    return <div class="fixed-action-btn" onClick= {()=>{Top()}}>
-    <a id="top1" class={`btn-floating btn-large green darken-2 scale-transition ${props.scale}`}>
-       <i class="large material-icons">arrow_upward</i>
+    return <div className="fixed-action-btn" onClick= {()=>{Top()}}>
+    <a id="top1" className={`btn-floating btn-large green darken-2 scale-transition ${props.scale}`}>
+       <i className="large material-icons">arrow_upward</i>
     </a>
  </div>
 }

@@ -1,6 +1,5 @@
 import React, {useState,useEffect,useRef} from 'react';
 import M  from "materialize-css"
-//import Panel from "../../components/cardpanel/Panel";
 import {Col, Container, Row} from "../../components/grid/index"
 import Card from "../../components/Card/card"
 //import All from "../../utils/data1.json"
@@ -17,8 +16,8 @@ function AllStrains(){
   //const [strain,setStrain] = useState(All.data);
   const [ogStrain,setOgstrain] = useState(OG);
   const [searchTerm, setSearchTerm] = useState("");
-  let [pos, setPos] = useState(window.pageYOffset)
-  let [visible, setVisible] = useState("")
+  let [pos] = useState(window.pageYOffset)
+  let [visible, setVisible] = useState("scale-out")
 
 
  const scaleOut = () => {
@@ -83,11 +82,11 @@ function AllStrains(){
   </div>
   <div className="col s4">
       <form>
-        <div class="input-field">
-        <i class="material-icons prefix">search</i>
+        <div className="input-field">
+        <i className="material-icons prefix">search</i>
           <input id="search" type="search" placeholder="Search by name?" value={searchTerm} onChange={handleChange} required></input>
-          <label class="label-icon" for="search"></label>
-          <i class="material-icons">close</i>
+          <label className="label-icon" htmlFor="search"></label>
+          <i className="material-icons">close</i>
         </div>
       </form>
     </div>
@@ -107,7 +106,7 @@ function AllStrains(){
               </Card>              
             </Card>
             <Card classes= "card-action">
-            <a data-target={`modal${index}`} class="waves-effect waves-light btn modal-trigger">More Info</a>
+            <a data-target={`modal${index}`} className="waves-effect waves-light btn modal-trigger">More Info</a>
             </Card>
           </Card>
           <div id={`modal${index}`} className="modal modal-fixed-footer">
@@ -119,23 +118,23 @@ function AllStrains(){
               <Col size="s12 m6">
               <h3>{ogStrain.Name}</h3>
               <h6>by: SampleBrand</h6>
-              <h6>Strain Type: {ogStrain.Value_race}<i class="material-icons">eco</i></h6>
+              <h6>Strain Type: {ogStrain.Value_race}<i className="material-icons">eco</i></h6>
               <ul className="collapsible">
     <li>
-      <div class="collapsible-header"><i class="material-icons">local_dining</i>Flavors</div>
-      <div class="collapsible-body"><span>{ogStrain.Value_flavors}</span></div>
+      <div className="collapsible-header"><i className="material-icons">local_dining</i>Flavors</div>
+      <div className="collapsible-body"><span>{ogStrain.Value_flavors}</span></div>
     </li>
         <li>
-      <div class="collapsible-header"><i class="material-icons">local_hospital</i>Medical Uses</div>
-      <div class="collapsible-body"><span>Used to Treat: {ogStrain.Value_effects_medical}</span></div>
+      <div className="collapsible-header"><i className="material-icons">local_hospital</i>Medical Uses</div>
+      <div className="collapsible-body"><span>Used to Treat: {ogStrain.Value_effects_medical}</span></div>
     </li>
         <li>
-      <div class="collapsible-header"><i class="material-icons">sentiment_satisfied_alt</i>Positive Effects</div>
-      <div class="collapsible-body"><span>{ogStrain.Value_effects_positive}</span></div>
+      <div className="collapsible-header"><i className="material-icons">sentiment_satisfied_alt</i>Positive Effects</div>
+      <div className="collapsible-body"><span>{ogStrain.Value_effects_positive}</span></div>
     </li>
     <li>
-      <div class="collapsible-header"><i class="material-icons">sentiment_very_dissatisfied</i>Negative Effects</div>
-      <div class="collapsible-body"><span>{ogStrain.Value_effects_negative}</span></div>
+      <div className="collapsible-header"><i className="material-icons">sentiment_very_dissatisfied</i>Negative Effects</div>
+      <div className="collapsible-body"><span>{ogStrain.Value_effects_negative}</span></div>
     </li>
 
 
