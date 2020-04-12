@@ -2,6 +2,7 @@ const jwt = require('express-jwt');
 const config = require('../config.js');
 const userService = require('../users/user.service');
 
+
 module.exports = {expressjwt};
 
 function expressjwt(){
@@ -9,9 +10,10 @@ function expressjwt(){
     return jwt({ secret, isRevoked}).unless({
         path: [
             //public routes that don't require authentication
-            '/users/authenticate',
-            '/users/RegisterPage',
-            '/home'
+            '/authenticate',
+            '/register',
+            '../build/*',
+            '/'
         ]
     });
 }
