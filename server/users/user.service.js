@@ -1,8 +1,8 @@
 const config = require('../config');
 const jwt = require('jsonwebtoken');
-const bcrypt = require('../_helpers/db');
-const User = bcrypt.User;
-
+const bcrypt = require('bcrypt');
+const db = require('../_helpers/db');
+const User = db.User;
 
 module.exports = {
     authenticate,
@@ -34,8 +34,9 @@ async function getById(id) {
 }
 
 async function create(userParam) {
+    console.log(userParam);
     // validate
-    if (await User.findONe({ username: userParam.username})) {
+    if (await User.findOne({ username: userParam.username})) {
         throw 'Username"' + userParam.username + '" is already taken';
     }
 
