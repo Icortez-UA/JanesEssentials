@@ -19,6 +19,7 @@ if (process.env.NODE_ENV === "production") {
 
 // api routes
 app.use(router);
+mongoose.connect(process.env.MONGODB_URI || "mongodb://Isaac:Janes420@ds017672.mlab.com:17672/heroku_9g358wqb", { useNewUrlParser: true });
 
 // global error handler
 app.use(errorHandlers.errorHandler);
