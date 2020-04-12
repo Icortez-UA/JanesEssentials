@@ -10,7 +10,8 @@ function expressjwt(){
         path: [
             //public routes that don't require authentication
             '/users/authenticate',
-            '/users/register'
+            '/users/RegisterPage',
+            '/home'
         ]
     });
 }

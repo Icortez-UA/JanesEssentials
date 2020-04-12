@@ -34,13 +34,13 @@ class App extends React.Component {
                         }
                         <Router history={history}>
                             <NavTabs />
-                            <Switch>                               
-                                <Route exact path="/" component={Home} />
+                            <Switch>
+                                <Route exact path="/" component={LoginPage} />
                                 <Route exact path="/all" component={AllStrains} />
                                 <Route exact path="/home" component={Home} />
                                 <Route exact path="/hybrid" component={Hybrid} />
-                                <Route exact path="/LoginPage" component={LoginPage} />
-                                <Route path="/RegisterPage" component={RegisterPage} />                                
+                                <Route path="/LoginPage" component={LoginPage} />
+                                <Route path="/RegisterPage" component={RegisterPage} />
                             </Switch>
                         </Router>
             </div>
