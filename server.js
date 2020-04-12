@@ -7,6 +7,7 @@ const bodyParser = require('body-parser')
 const jwt = require('./server/_helpers/jwt');
 const errorHandlers = require('./server/_helpers/error-handler');
 const path = require("path");
+const mongoose = require('mongoose');
 
 
 app.use(express.urlencoded({ extended: false}));
