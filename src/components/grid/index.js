@@ -1,8 +1,8 @@
 import React from "react";
 
 
-export function Container({fluid,children}){
-    return <div className= {`container`}>{children}</div>;
+export function Container({id,classes,children}){
+    return <div id={id} className= {`container ` + classes }>{children}</div>;
 }
 
 export function Row({children}){
