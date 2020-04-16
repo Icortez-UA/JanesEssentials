@@ -25,31 +25,20 @@ function navbar(props){
         <img className="responsive-image" src={Logo} id="navlogo" alt="logo"  style={styles}></img></Link>
       <a data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
         <ul id="nav-mobile" className="right hide-on-med-and-down">
-       <li><Link
+        <li><Link
           to="/home"
-        
         >
           Home
         </Link></li>
         <li><Link
-          to="/all"
-        >
-          All
-        </Link></li>
-        <li><Link
-          to="/hybrid"
-        >
-          Hybrid
-        </Link></li>
-        <li><Link
           to="/LoginPage"
         >
-         login
+         Login
         </Link></li>
         <li><Link
           to="/RegisterPage"
         >
-          register
+          Register
         </Link></li>
         
    </ul>
