@@ -18,7 +18,8 @@ function navbar(props){
 
 
 
-   return <div className="navbar-fixed">
+   return <div>
+        <div className="navbar-fixed">
    <nav id="navBar" className={`grey scale-transition ${props.scale}`}>
       <div className="nav-wrapper">
       <Link to="/home" className="brand-logo">
@@ -44,7 +45,11 @@ function navbar(props){
    </ul>
 </div>
 </nav>
-<Side classes="sidenav" id="mobile-demo"></Side>
 </div>
+<Side classes="sidenav" id="mobile-demo"></Side>
+
+   </div>
+
+
 }
 export default navbar;

@@ -1,0 +1,12 @@
+.carousel .carousel-item {
+    visibility: hidden;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: -50px;
+    left: 0;
+}
+.card.small .card-image+ .card-content{
+    max-height: 60%;
+    font-size: small;
+}

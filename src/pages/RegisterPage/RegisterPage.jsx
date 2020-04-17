@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
-
+import './register.css';
 import { userActions } from '../../_actions';
 import Carousel from '../../components/carousel/carousel'
 
