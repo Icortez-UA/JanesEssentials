@@ -18,44 +18,38 @@ function navbar(props){
 
 
 
-   return <div className="navbar-fixed">
+   return <div>
+        <div className="navbar-fixed">
    <nav id="navBar" className={`grey scale-transition ${props.scale}`}>
       <div className="nav-wrapper">
       <Link to="/home" className="brand-logo">
         <img className="responsive-image" src={Logo} id="navlogo" alt="logo"  style={styles}></img></Link>
       <a data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
         <ul id="nav-mobile" className="right hide-on-med-and-down">
-       <li><Link
+        <li><Link
           to="/home"
-        
         >
           Home
         </Link></li>
         <li><Link
-          to="/all"
-        >
-          All
-        </Link></li>
-        <li><Link
-          to="/hybrid"
-        >
-          Hybrid
-        </Link></li>
-        <li><Link
           to="/LoginPage"
         >
-         login
+         Login
         </Link></li>
         <li><Link
           to="/RegisterPage"
         >
-          register
+          Register
         </Link></li>
         
    </ul>
 </div>
 </nav>
-<Side classes="sidenav" id="mobile-demo"></Side>
 </div>
+<Side classes="sidenav" id="mobile-demo"></Side>
+
+   </div>
+
+
 }
 export default navbar;

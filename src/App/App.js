@@ -5,13 +5,10 @@ import { connect } from 'react-redux';
 import  history  from '../_helpers/history';
 import { alertActions } from '../_actions';
 import { PrivateRoute } from '../_components';
-import  home  from '../pages/home/home';
 import  LoginPage  from '../pages/LoginPage/LoginPage';
 import  RegisterPage  from '../pages/RegisterPage/RegisterPage';
 import AllStrains from "../pages/all/all";
 import NavTabs from "../components/navbar/navbar"
-import Home from "../pages/home/home";
-import Hybrid from "../pages/hybrid/hybrid";
 
 
 
@@ -36,9 +33,7 @@ class App extends React.Component {
                             <NavTabs />
                             <Switch>
                                 <Route exact path="/" component={LoginPage} />
-                                <Route exact path="/all" component={AllStrains} />
-                                <Route exact path="/home" component={Home} />
-                                <Route exact path="/hybrid" component={Hybrid} />
+                                <Route exact path="/home" component={AllStrains} />
                                 <Route path="/LoginPage" component={LoginPage} />
                                 <Route path="/RegisterPage" component={RegisterPage} />
                             </Switch>

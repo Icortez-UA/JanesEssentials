@@ -18,19 +18,18 @@ function Side(props) {
                 Home
             </Link>
             </li>
-
             <li>
-            <Link
-                to="/all"
+                <Link
+                to="/LoginPage"
             >
-                All
+                Login
         </Link>
         </li>
             <li>
                 <Link
-                to="/hybrid"
+                to="/RegisterPage"
             >
-                Hybrid
+                Register
         </Link>
         </li>
         </ul>

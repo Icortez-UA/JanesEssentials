@@ -1,24 +1,31 @@
-import React, {useState,useEffect,useRef} from 'react';
-import M  from "materialize-css"
-import {Col, Container, Row} from "../../components/grid/index"
-import Card from "../../components/Card/card"
+import React, {useState,useEffect} from 'react';
+import M  from "materialize-css";
+import {Col, Container, Row} from "../../components/grid/index";
+import Card from "../../components/Card/card";
 //import All from "../../utils/data1.json"
-import OG from "../../utils/janesSampledata.json"
-import Logo from "../../assets/imgs/icon-192x192.png"
-import Banner from "../../components/Parallax/parallax"
-import BannerImg from "../../assets/imgs/janesParalax.jpg"
-import BrandImg from "../../assets/imgs/brandlogo.png"
-import BackToTop from "../../components/backtotop/top"
-
+import OG from "../../utils/janesSampledata.json";
+import Logo from "../../assets/imgs/icon-192x192.png";
+import Banner from "../../components/Parallax/parallax";
+import BannerImg from "../../assets/imgs/homepage.jpg";
+import BrandImg from "../../assets/imgs/brandlogo.png";
+import BackToTop from "../../components/backtotop/top";
+import "./all.css";
 
 
 function AllStrains(){
-  //const [strain,setStrain] = useState(All.data);
+
   const [ogStrain,setOgstrain] = useState(OG);
   const [searchTerm, setSearchTerm] = useState("");
+  const [medical,setMedical]= useState("");
   let [pos] = useState(window.pageYOffset)
   let [visible, setVisible] = useState("scale-out")
 
+  const strings= (str)=>{
+ 
+    var newstr= str.replace(/,/g, ' ');
+
+  return newstr;
+};
 
  const scaleOut = () => {
   let temp = window.pageYOffset;
@@ -32,6 +39,20 @@ function AllStrains(){
 
   const handleChange = (event) => {
      setSearchTerm(event.target.value);
+     const results = OG.filter((a) =>
+      a.Name.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+    setOgstrain(results);
+   };
+
+
+   const handleEffect =(event)=>{
+     setMedical(event.target.value);
+     const result = OG.filter((a)=>{
+      let effects= strings(a.Value_effects_medical);
+     return  effects.toLowerCase().includes(medical.toLowerCase())
+     })
+     setOgstrain(result)
    };
 
   const filterResults = (choice,obj) =>{
@@ -54,24 +75,43 @@ function AllStrains(){
     //setStrain(strain.sort((a, b) => (a.seedCompany.name > b.seedCompany.name) ? 1 : -1))
     
     M.AutoInit();
-    const results = OG.filter((a) =>
-      a.Name.toLowerCase().includes(searchTerm.toLowerCase())
-    );
-    setOgstrain(results);
+
+
     window.addEventListener("scroll", scaleOut);
 
-  },[searchTerm])
+  },[searchTerm,medical])
 
   return <div>
-  <Banner classes="parallax-container">
+<div>
+ <Banner classes="parallax-container">
+   <div className="section no-pad-bot">
+      <Container>
+        <h1 className="header center white-text text-lighten-2">Welcome To Janes Essentials</h1>
+           <div className="col s12 m4">
+          <Container>
+          <form className="round-form white">
+        <div className="input-field ">
+        <i className="material-icons prefix">search</i>
+          <input id="search" type="search" placeholder="Search by name?" value={searchTerm} onChange={handleChange} required></input>
+          <label className="label-icon" htmlFor="search"></label>
+          <i className="material-icons">close</i>
+        </div>
+      </form>
+      </Container>
+
+    </div>
+
+      </Container>
+    </div>
     <Banner classes="parallax">
     <img src={BannerImg} alt="banner"></img>
     </Banner>
-  </Banner>
+    </Banner>
+    </div>
   
   
  <Row>
-  <div className="input-field col s4 offset-s2">
+  <div className="input-field col s12 m4 offset-m2">
     <select defaultValue={'DEFAULT'} onChange={e=> setOgstrain(filterResults(e.currentTarget.value,OG)) }>
       <option value="DEFAULT" disabled >Choose your Strain Type!</option>
       <option value="All">All</option>
@@ -80,12 +120,12 @@ function AllStrains(){
       <option value="sativa">Sativa</option>
     </select>
   </div>
-  <div className="col s4">
+  <div className="col s12 m4">
       <form>
         <div className="input-field">
         <i className="material-icons prefix">search</i>
-          <input id="search" type="search" placeholder="Search by name?" value={searchTerm} onChange={handleChange} required></input>
-          <label className="label-icon" htmlFor="search"></label>
+          <input id="search2" type="search" placeholder="Search by medical use?" value={medical} onChange={handleEffect} required></input>
+          <label className="label-icon" htmlFor="search2"></label>
           <i className="material-icons">close</i>
         </div>
       </form>
@@ -93,7 +133,7 @@ function AllStrains(){
  </Row>
 
   <Row>
-    <Container >
+    <Container id="focus" >
       {ogStrain.slice(0,500).map((ogStrain,index)=>(
         <Col key={index} size="s6 m4">
           <Card  classes="card hoverable medium">

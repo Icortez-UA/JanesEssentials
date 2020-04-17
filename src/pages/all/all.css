@@ -1,0 +1,11 @@
+.round-form{
+  border-radius: 25px;
+}
+input[type=search]:not(.browser-default){
+  border-bottom: transparent;
+  border-radius: 25px;
+}
+
+.parallax-container {
+  height: 350px;
+}
