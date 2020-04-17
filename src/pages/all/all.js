@@ -44,6 +44,14 @@ function AllStrains(){
     );
     setOgstrain(results);
    };
+   function handleSubmit(event) {
+    event.preventDefault();
+    setSearchTerm(event.target.value);
+    const results = OG.filter((a) =>
+     a.Name.toLowerCase().includes(searchTerm.toLowerCase())
+   );
+   setOgstrain(results);
+  }
 
 
    const handleEffect =(event)=>{
@@ -89,7 +97,7 @@ function AllStrains(){
         <h1 className="header center white-text text-lighten-2">Welcome To Janes Essentials</h1>
            <div className="col s12 m4">
           <Container>
-          <form className="round-form white">
+          <form className="round-form white" onSubmit={handleSubmit}>
         <div className="input-field ">
         <i className="material-icons prefix">search</i>
           <input id="search" type="search" placeholder="Search by name?" value={searchTerm} onChange={handleChange} required></input>
@@ -111,7 +119,7 @@ function AllStrains(){
   
   
  <Row>
-  <div className="input-field col s12 m4 offset-m2">
+  <div className="input-field col s12 l4 offset-l4">
     <select defaultValue={'DEFAULT'} onChange={e=> setOgstrain(filterResults(e.currentTarget.value,OG)) }>
       <option value="DEFAULT" disabled >Choose your Strain Type!</option>
       <option value="All">All</option>
@@ -120,16 +128,7 @@ function AllStrains(){
       <option value="sativa">Sativa</option>
     </select>
   </div>
-  <div className="col s12 m4">
-      <form>
-        <div className="input-field">
-        <i className="material-icons prefix">search</i>
-          <input id="search2" type="search" placeholder="Search by medical use?" value={medical} onChange={handleEffect} required></input>
-          <label className="label-icon" htmlFor="search2"></label>
-          <i className="material-icons">close</i>
-        </div>
-      </form>
-    </div>
+
  </Row>
 
   <Row>
