@@ -1,5 +1,5 @@
 import { userConstants } from '../_constants';
-//change local storage to session storage for real backend
+
 let user = JSON.parse(localStorage.getItem('user'));
 const initialState = user ? { loggedIn: true, user } : {};
 

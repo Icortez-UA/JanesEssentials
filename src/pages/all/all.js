@@ -10,7 +10,9 @@ import BannerImg from "../../assets/imgs/homepage.jpg";
 import BrandImg from "../../assets/imgs/brandlogo.png";
 import BackToTop from "../../components/backtotop/top";
 import "./all.css";
-
+import { Link } from 'react-router-dom';
+import { connect } from 'react-redux';
+import { userActions } from '../../_actions';
 
 function AllStrains(){
 
@@ -195,4 +197,19 @@ function AllStrains(){
   </div>
 
 }
+
+
+//redirect code
+function mapState(state) {
+  const { users, authentication } = state;
+  const { user } = authentication;
+  return { user, users };
+}
+
+const actionCreators = {
+  getUsers: userActions.getAll,
+  deleteUser: userActions.delete
+}
+
+const connectedHomePage = connect(mapState, actionCreators)(HomePage);
 export default AllStrains;

@@ -32,10 +32,12 @@ class App extends React.Component {
                         <Router history={history}>
                             <NavTabs />
                             <Switch>
+                                <PrivateRoute exact path="/home" component={HomePage} />
                                 <Route exact path="/" component={LoginPage} />
                                 <Route exact path="/home" component={AllStrains} />
                                 <Route path="/LoginPage" component={LoginPage} />
                                 <Route path="/RegisterPage" component={RegisterPage} />
+                                <Redirect from="/" to="/home" />
                             </Switch>
                         </Router>
             </div>
