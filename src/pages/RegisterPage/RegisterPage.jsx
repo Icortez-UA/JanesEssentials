@@ -4,6 +4,8 @@ import { connect } from 'react-redux';
 import './register.css';
 import { userActions } from '../../_actions';
 import Carousel from '../../components/carousel/carousel'
+import M  from "materialize-css";
+
 
 class RegisterPage extends React.Component {
     constructor(props) {
@@ -43,7 +45,9 @@ class RegisterPage extends React.Component {
             this.props.register(user);
         }
     }
-
+    componentDidMount() {
+        M.AutoInit()
+      }
     render() {
         const { registering  } = this.props;
         const { user, submitted } = this.state;

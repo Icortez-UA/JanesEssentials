@@ -13,23 +13,10 @@ function Side(props) {
         <ul className={props.classes}
             id={props.id}>
             <li>
-            <Link
-                to="/home">
-                Home
-            </Link>
-            </li>
-            <li>
                 <Link
                 to="/LoginPage"
             >
-                Login
-        </Link>
-        </li>
-            <li>
-                <Link
-                to="/RegisterPage"
-            >
-                Register
+                Logout
         </Link>
         </li>
         </ul>

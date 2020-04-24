@@ -27,21 +27,10 @@ function navbar(props){
       <a data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
         <ul id="nav-mobile" className="right hide-on-med-and-down">
         <li><Link
-          to="/home"
-        >
-          Home
-        </Link></li>
-        <li><Link
           to="/LoginPage"
         >
-         Login
-        </Link></li>
-        <li><Link
-          to="/RegisterPage"
-        >
-          Register
-        </Link></li>
-        
+         Logout
+        </Link></li>        
    </ul>
 </div>
 </nav>
