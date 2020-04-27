@@ -9,3 +9,7 @@ input[type=search]:not(.browser-default){
 .parallax-container {
   height: 350px;
 }
+
+.switch label{
+  font-size: large;
+}

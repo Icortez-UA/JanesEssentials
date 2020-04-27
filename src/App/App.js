@@ -30,7 +30,6 @@ class App extends React.Component {
                             <div className={`alert ${alert.type}`}>{alert.message}</div>
                         }
                         <Router history={history}>
-                            <NavTabs />
                             <Switch>
                                 <Route exact path="/" component={LoginPage} />
                                 <Route exact path="/home" component={AllStrains} />
