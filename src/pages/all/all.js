@@ -1,7 +1,8 @@
 import React, {useState,useEffect} from 'react';
 import M  from "materialize-css";
 import { Container, Row} from "../../components/grid/index";
-import OG from "../../utils/ogdata.json";
+import Brands from "../../utils/brandlist.json"
+import OG from "../../utils/strainnewdata.json";
 import products from "../../utils/productdata.json";
 import JaneLogo from "../../assets/imgs/icon-192x192.png";
 import Banner from "../../components/Parallax/parallax";
@@ -10,6 +11,7 @@ import BrandImg from "../../assets/imgs/brandlogo.png";
 import BackToTop from "../../components/backtotop/top";
 import Navtabs from "../../components/navbar/navbar"
 import InfoCard from "../../components/infocard/info";
+import ProductCard from "../../components/ProductsCard/ProductInfo"
 import "./all.css";
 
 
@@ -18,10 +20,10 @@ function AllStrains(){
   const [ogStrain,setOgstrain] = useState(OG);
   const [searchTerm, setSearchTerm] = useState("");
   const [product,setProduct]= useState(products);
-  const [medical,setMedical]= useState("");
-  const [itemChoice,setItemChoice]= useState(true)
-  let [pos] = useState(window.pageYOffset)
-  let [visible, setVisible] = useState("scale-out")
+  const [itemChoice,setItemChoice]= useState(false);
+  const [brandList,setBrandList]= useState(Brands)
+  let [pos] = useState(window.pageYOffset);
+  let [visible, setVisible] = useState("scale-out");
 //function to swith between products or strains will update as we obtain more data
   const ItemSwitch=()=>{
     let checkbox =document.getElementById("switch")
@@ -31,10 +33,20 @@ function AllStrains(){
       return setItemChoice(false);
     }
   };
+//function to check for empty string
+  const emptyStr=(str)=>{
+    if(str===""){
+      let notice = "No Data Avaliable"
+      return notice;
+    }else{
+      return str;
+    }
+
+  }
 //function to replace comma in data
   const strings= (str)=>{
  
-    var newstr= str.replace(/,/g, ' | ');
+    var newstr= str.replace(/,/g, ' ');
 
   return newstr;
 };
@@ -58,7 +70,7 @@ function AllStrains(){
     }
       else{setSearchTerm(search);
      let results = OG.filter((a) =>
-      a.Name.toLowerCase().includes(searchTerm.toLowerCase())
+      a.Strain.toLowerCase().includes(searchTerm.toLowerCase())
     );
     setOgstrain(results);}
     };
@@ -84,7 +96,7 @@ function AllStrains(){
     event.preventDefault();
     setSearchTerm(event.target.value);
     const results = OG.filter((a) =>
-     a.Name.toLowerCase().includes(searchTerm.toLowerCase())
+     a.Strain.toLowerCase().includes(searchTerm.toLowerCase())
    );
    setOgstrain(results);
   }
@@ -114,6 +126,23 @@ function AllStrains(){
     }
 
   }
+  const ProductResults = (choice,obj)=>{
+    console.log(choice);
+    if(choice === "DEFAULT"){
+      return obj;
+    }
+    else if (choice === "All"){
+      return obj;
+    }
+    else{
+      console.log("in the else")
+      var result = obj.filter((a)=>{
+        return a.brand === choice;
+      })
+    }
+    console.log(result);
+    return result;
+  }
 // useeffect
   useEffect(()=>{    
     M.AutoInit();
@@ -121,7 +150,7 @@ function AllStrains(){
 
     window.addEventListener("scroll", scaleOut);
 
-  },[searchTerm,medical])
+  },[searchTerm,visible])
 
   return <div>
     <Navtabs />
@@ -151,10 +180,12 @@ function AllStrains(){
     </Banner>
     </Banner>
     </div>
-  
-  
- <Row>
-  <div className="input-field col s12 l4 offset-l4">
+
+
+ {(function(){
+   if(itemChoice){
+      return(<Row>
+  <div className="input-field col s12 l4 offset-l2">
     <select defaultValue={'DEFAULT'} onChange={e=> setOgstrain(filterResults(e.currentTarget.value,OG)) }>
       <option value="DEFAULT" disabled >Choose your Strain Type!</option>
       <option value="All">All</option>
@@ -163,16 +194,46 @@ function AllStrains(){
       <option value="sativa">Sativa</option>
     </select>
   </div>
-  <div className="switch">
+  <div className="col s12 l4">
+    <br></br>
+      <div className="switch right">
     <label>
-      products
+      Products
       <input id="switch" type="checkbox"  checked={itemChoice} onChange={ItemSwitch}></input>
       <span className="lever"></span>
       Strains
     </label>
-  </div>
+  </div></div>
 
- </Row>
+
+ </Row>)
+   }else{
+      return (<Row>
+  <div className="input-field col s12 l4 offset-l2">
+    <select defaultValue={'DEFAULT'} onChange={e=> setProduct(ProductResults(e.currentTarget.value,products)) }>
+      <option value="DEFAULT" disabled >Choose your Brand!</option>
+      <option value="All">All</option>
+      {brandList.map((BrandList,index)=>(
+      <option key={index} value={BrandList.brand}>{BrandList.brand}</option>
+      ))}
+    </select>
+  </div>
+  <div className="col s12 l4">
+    <br></br>
+      <div className="switch right">
+    <label>
+      Products
+      <input id="switch" type="checkbox"  checked={itemChoice} onChange={ItemSwitch}></input>
+      <span className="lever"></span>
+      Strains
+    </label>
+  </div></div>
+
+
+ </Row>)
+   }
+ })()}
+
 
  
     
@@ -180,16 +241,17 @@ function AllStrains(){
         if(itemChoice){
           return ( <Row>
           <Container id="focus" >
-          {ogStrain.slice(0,500).map((ogStrain,index)=>(<InfoCard key={index} index={ogStrain.Name} Name={ogStrain.Name} race={ogStrain.Value_race}
+          {ogStrain.slice(0,500).map((ogStrain,index)=>(<InfoCard key={index} index={ogStrain.Strain} Name={ogStrain.Strain} race={ogStrain.Type}
     medical={strings(ogStrain.Value_effects_medical)} positive={strings(ogStrain.Value_effects_positive)} negative={ogStrain.Value_effects_negative}
-    flavors={ogStrain.Value_flavors} Logo={JaneLogo} BrandImg={BrandImg}/>))}
+    flavors={ogStrain.Value_flavors} description={ogStrain.Description} Logo={JaneLogo} BrandImg={BrandImg}/>))}
      <BackToTop scale= {visible} />
     </Container>
     </Row>)
         }else{
           return  (<Row>
           <Container id="focus" >
-          {products.slice(0,500).map((products,index)=>(<InfoCard key={index} Name={products.name} Logo={JaneLogo} BrandImg={BrandImg} />))}
+          {product.slice(0,500).map((product,index)=>(<ProductCard key={index} index={product.id} Name={product.name} Logo={JaneLogo} BrandImg={BrandImg} brand={emptyStr(product.brand)}
+          thc={emptyStr(product.thc)} cbd={emptyStr(product.cbd)} category={emptyStr(product.category)} description="No Data Available" />))}
           <BackToTop scale= {visible} />
           </Container>
           </Row>)
