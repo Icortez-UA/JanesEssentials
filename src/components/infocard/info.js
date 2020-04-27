@@ -6,8 +6,9 @@ function propsCard(props){
 
 
     return(
-      
-        <Col key={props.index} size="s12 m4">
+      <div>
+              
+                <Col key={props.index} size="s12 m4">
         <Card  classes="card hoverable medium">
         <Card  classes="card-image waves-effect waves-block waves-light">
         <img data-target={`modal${props.index}`} className="modal-trigger"src={props.Logo} alt="logo"></img>
@@ -23,6 +24,7 @@ function propsCard(props){
         </Card>
         <div id={`modal${props.index}`} className="modal modal-fixed-footer">
           <div className="modal-content">
+            <div className="row">
             <Col size="s12 m6">
             <img style={{maxWidth: '100%'}} className="responsive-image" src={props.BrandImg} alt="logo"></img>
             </Col>
@@ -52,13 +54,24 @@ function propsCard(props){
 
             </ul>
             </Col>
-            
+            </div>
+            <div className="row">
+              <Col size="s12 l6 offset-l6">
+                <h6>Description</h6>
+                <div className="divider"></div>
+              <p>{props.description}</p>
+              </Col>
+              
+            </div>
           </div>
           <div className="modal-footer">
           <a href="#!" className="modal-close waves-effect waves-green btn-flat">Close</a>
           </div>
         </div>
     </Col>
+      </div>
+
+
 
     )
 }
