@@ -20,7 +20,7 @@ function AllStrains(){
   const [ogStrain,setOgstrain] = useState(OG);
   const [searchTerm, setSearchTerm] = useState("");
   const [product,setProduct]= useState(products);
-  const [itemChoice,setItemChoice]= useState(false);
+  const [itemChoice,setItemChoice]= useState(true);
   const [brandList,setBrandList]= useState(Brands)
   let [pos] = useState(window.pageYOffset);
   let [visible, setVisible] = useState("scale-out");
@@ -120,7 +120,7 @@ function AllStrains(){
     }
     else{
     var result = obj.filter((a) =>{
-      return a.Value_race === choice
+      return a.Type === choice
   });
       return result;
     }
@@ -194,7 +194,7 @@ function AllStrains(){
       <option value="sativa">Sativa</option>
     </select>
   </div>
-  <div className="col s12 l4">
+  <div className="col s8 l4">
     <br></br>
       <div className="switch right">
     <label>
